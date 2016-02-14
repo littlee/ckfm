@@ -1,0 +1,52 @@
+@import "public.less";
+
+.range-slider {
+  &-module {
+    margin: 30px 4px;
+  }
+  &-area {
+    height: 24px;
+    width: 100%;
+    background: #ccc;
+    position: relative;
+  }
+  &-filled {
+    height: 24px;
+    background: #f5b876;
+    position: absolute;
+    left: 0;
+  }
+  &-handler-left,
+  &-handler-right {
+    height: 24px;
+    width: 24px;
+    background: @ck-main;
+    position: absolute;
+  }
+  &-show-value {
+    margin-top: 20px;
+    height: 26px;
+    position: relative;
+  }
+  &-left-value,
+  &-right-value {
+    border: 1px solid #ccc;
+    color: @ck-main;
+    width: 80px;
+    padding: 2px 0;
+    text-align: center;
+  }
+  &-left-value,
+  &-left-star {
+    position: absolute;
+    left: 0;
+  }
+  &-right-value,
+  &-right-star {
+    position: absolute;
+    right: 0;
+  }
+  &-star {
+    font-size: 20px;
+  }
+}

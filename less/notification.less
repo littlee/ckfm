@@ -1,0 +1,105 @@
+@import "public.less";
+
+.noti {
+	margin-top: 80px;
+
+	&-filter {
+		.clearfix();
+		position: fixed;
+		top: 40px;
+		left: 0;
+		z-index: 99;
+		width: 100%;
+		background-color: white;
+
+		&-nav {
+			text-align: center;
+			display: block;
+			float: left;
+			width: 100/3%;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			padding: 10px 5px;
+			padding-bottom: 7px;
+
+			&.active {
+				color: @ck-main;
+				border-bottom: 3px solid @ck-main;
+			}
+
+		}
+
+	}
+
+	&-list {
+		&-items {
+			padding: 10px;
+		}
+
+		&-item {
+			background-color: white;
+			padding: 0 5px;
+			margin-bottom: 10px;
+		}
+	}
+
+	&-title {
+		> a {
+			display: block;
+			padding: 10px;
+		}
+	}
+
+	&-options {
+		border-top: 1px solid #eee;
+		.clearfix();
+		padding: 5px;
+	}
+
+	&-time {
+		float: left;
+		width: 50%;
+	}
+
+	&-btns {
+		float: left;
+		width: 50%;
+		text-align: right;
+	}
+
+	&-btn {
+		[class^="icon-"], [class*=" icon-"] {
+			font-size: 20px;
+		}
+		display: inline-block;
+		color: #333;
+
+		&.active {
+			color: @ck-main;
+		}
+
+		&:hover,
+		&:focus,
+		&:active {
+			color: #333;
+			text-decoration: none;
+		}
+
+		& + & {
+			margin-left: 10px;
+		}
+	}
+
+	&-detail {
+		margin-top: 40px;
+		padding-top: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+
+		&-content {
+			overflow-x: hidden;
+			min-height: 400px;
+		}
+	}
+}

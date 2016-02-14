@@ -1,0 +1,42 @@
+// ***************************************
+// WANRING: JUST VARIABLES AND MIXINS HERE;
+// ***************************************
+
+@ck-main: #f7921c;
+@ck-sub: #3d5770;
+@ck-strong: #f15a24;
+@ck-sub-light: #5e81a7;
+@ck-success: #8cc63f;
+
+.clearfix() {
+	&:before,
+	&:after {
+		content: "";
+		display: table;
+	}
+	&:after {
+		clear: both;
+	}
+}
+
+.one-line() {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.abs-center(@w: auto, @h: auto) {
+	width: @w;
+	height: @h;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+.letter-upper() {
+	&:first-letter {
+		text-transform: uppercase;
+	}
+}

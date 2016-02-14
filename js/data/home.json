@@ -1,0 +1,162 @@
+{
+    "carousel": [
+        {
+            "url": "#",
+            "image": "images/home/carousel1.jpg"
+        },
+        {
+            "url": "#",
+            "image": "images/home/carousel2.jpg"
+        },
+        {
+            "url": "#",
+            "image": "images/home/carousel3.jpg"
+        },
+        {
+            "url": "#",
+            "image": "images/home/carousel4.jpg"
+        },
+        {
+            "url": "#",
+            "image": "images/home/carousel5.jpg"
+        }
+    ],
+    "f1": [
+        {
+            "id": 1,
+            "src": "http://placehold.it/200x300"
+        },
+        {
+            "id": 2,
+            "src": "http://placehold.it/200x300"
+        },
+        {
+            "id": 3,
+            "src": "http://placehold.it/200x300"
+        }
+    ],
+    "f2": [
+        {
+            "id": 1,
+            "src": "http://placehold.it/300x300"
+        },
+        {
+            "id": 2,
+            "src": "http://placehold.it/300x150"
+        },
+        {
+            "id": 3,
+            "src": "http://placehold.it/300x150"
+        }
+    ],
+    "f3": {
+        "hero": "http://placehold.it/400x200",
+        "products": [
+            {
+                "id": 1,
+                "src": "http://placehold.it/200x200"
+            },
+            {
+                "id": 2,
+                "src": "http://placehold.it/200x200"
+            },
+            {
+                "id": 3,
+                "src": "http://placehold.it/200x200"
+            },
+            {
+                "id": 4,
+                "src": "http://placehold.it/200x200"
+            }
+        ]
+    },
+    "f4": {
+        "hero": "http://placehold.it/400x200",
+        "products": [
+            {
+                "id": 1,
+                "src": "http://placehold.it/200x200"
+            },
+            {
+                "id": 2,
+                "src": "http://placehold.it/200x200"
+            },
+            {
+                "id": 3,
+                "src": "http://placehold.it/200x200"
+            },
+            {
+                "id": 4,
+                "src": "http://placehold.it/200x200"
+            }
+        ]
+    },
+    "f5": {
+        "hero": "http://placehold.it/400x200",
+        "products": [
+            {
+                "id": 1,
+                "src": "http://placehold.it/200x200"
+            },
+            {
+                "id": 2,
+                "src": "http://placehold.it/200x200"
+            },
+            {
+                "id": 3,
+                "src": "http://placehold.it/200x200"
+            },
+            {
+                "id": 4,
+                "src": "http://placehold.it/200x200"
+            }
+        ]
+    },
+    "f6": {
+        "hero": "http://placehold.it/400x200",
+        "products": [
+            {
+                "id": 1,
+                "src": "http://placehold.it/200x200"
+            },
+            {
+                "id": 2,
+                "src": "http://placehold.it/200x200"
+            },
+            {
+                "id": 3,
+                "src": "http://placehold.it/200x200"
+            },
+            {
+                "id": 4,
+                "src": "http://placehold.it/200x200"
+            }
+        ]
+    },
+    "f7": [
+        {
+            "id": 1,
+            "src": "http://placehold.it/200x200"
+        },
+        {
+            "id": 2,
+            "src": "http://placehold.it/200x200"
+        },
+        {
+            "id": 3,
+            "src": "http://placehold.it/200x200"
+        },
+        {
+            "id": 4,
+            "src": "http://placehold.it/200x200"
+        },
+        {
+            "id": 5,
+            "src": "http://placehold.it/200x200"
+        },
+        {
+            "id": 6,
+            "src": "http://placehold.it/200x200"
+        }
+    ]
+}

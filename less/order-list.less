@@ -1,0 +1,155 @@
+@import "public.less";
+
+.order-list {
+	padding-top: 80px;
+	position: relative;
+
+	&-filter {
+		padding: 5px 10px;
+		position: fixed;
+		background-color: #f7f7f7;
+		top: 40px;
+		left: 0;
+		width: 100%;
+		z-index: 99;
+
+		&-select {
+			display: inline-block;
+			width: auto;
+			// width: 50%;
+			// padding: 5px 10px;
+			height: 30px;
+		}
+	}
+
+	&-items {
+		margin-bottom: 15px;
+	}
+
+	&-item {
+		background-color: white;
+		margin-bottom: 15px;
+		&-heading {
+			background-color: lighten(@ck-main, 35%);
+			padding: 5px 10px;
+		}
+
+		&-num {
+			margin-bottom: 5px;
+		}
+
+		&-status {
+			color: @ck-main;
+			font-weight: bold;
+		}
+
+		&-info {
+			.clearfix();
+		}
+
+		&-breif {
+			.clearfix();
+		}
+
+		&-thumb {
+			display: block;
+			float: left;
+			width: 20%;
+
+			> img {
+				display: block;
+				max-width: 100%;
+			}
+		}
+
+		&-title {
+			display: block;
+			float: left;
+			width: 80%;
+			padding: 5px 10px;
+
+			> a {
+				color: #333;
+			}
+		}
+
+		&-table {
+			> tbody > tr > td {
+				border: none;
+				padding: 5px;
+			}
+
+			border-top: 1px solid #ddd;
+			border-bottom: 1px solid #ddd;
+			margin-top: 5px;
+			margin-bottom: 5px;
+		}
+
+		&-total {
+			padding: 5px 10px;
+			text-align: right;
+		}
+
+		&-btns {
+			padding: 10px;
+			text-align: right;
+
+			> .btn + .btn {
+				margin-left: 5px;
+			}
+		}
+
+		&-strong {
+			color: @ck-strong;
+		}
+	}
+
+	&-guide {
+		padding: 10px;
+		margin-top: 5px;
+		text-align: left;
+		background-color: #eee;
+	}
+}
+
+.dispute-list {
+	padding-top: 120px;
+	&-filter {
+		overflow-x: scroll;
+		-webkit-overflow-scrolling: touch;
+		font-size: 0;
+		white-space: nowrap;
+		padding: 5px;
+		background-color: white;
+		position: fixed;
+		top: 80px;
+		left: 0;
+		width: 100%;
+		z-index: 99;
+		border-bottom: 1px solid #ddd;
+
+		&:-webkit-scrollbar {
+			-webkit-appearance: none;
+		}
+
+		&-nav {
+			display: inline-block;
+			font-size: 14px;
+			color: #333;
+			padding: 5px 10px;
+
+			&:active {
+				background-color: #eee;
+			}
+
+			&.active {
+				background-color: lighten(@ck-main, 10%);
+				color: white;
+			}
+
+			& + & {
+				margin-left: 10px;
+			}
+		}
+	}
+}

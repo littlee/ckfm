@@ -1,0 +1,96 @@
+@import "public.less";
+.transaction-detail {
+  &-module {
+    margin-top: 40px;
+  }
+  &-title {
+    height: 130px;
+    text-align: center;
+    &-icon {
+      color: #fff;
+      font-size: 55px;
+      display: block;
+      margin-top: 12px;
+      margin-bottom: 10px;
+    }
+    &-price,
+    &-status {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      color: #fff;
+    }
+    &-price {
+      font-size: 20px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+    &-status {
+      font-size: 14px;
+      letter-spacing: 4px;
+    }
+  }
+  &-items {
+    &-table {
+      table-layout: fixed;
+      background: #fff;
+      margin: 0;
+      > tbody > tr > td {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        vertical-align: middle;
+        &:first-child {
+          width: 30%;
+          padding-left: 20px;
+          p {
+            height: 20px;
+            text-align: justify;
+            text-align-last: justify;
+            margin: 0;
+            &:after {
+              display:inline-block;
+              content:'';
+              overflow:hidden;
+              width:100%;
+              height:0;
+            }
+          }
+        }
+        &:nth-child(2) {
+          width: 5%;
+        }
+        &:last-child {
+          width: 65%;
+          padding-right: 20px;
+        }
+      }
+    }
+    &-amount {
+      .one-line();
+      display: block;
+      float: left;
+      width: 92%;
+    }
+  }
+  &-contact {
+    display: block;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 12px;
+    background: #fff;
+    letter-spacing: 3px;
+    color: @ck-main;
+  }
+  &-pay {
+    width: 90%;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    letter-spacing: 4px;
+    margin: 30px auto 10px auto;
+  }
+  &-link-icon {
+    display: block;
+    width: 8%;
+    float: right;
+  }
+}

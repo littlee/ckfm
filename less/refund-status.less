@@ -1,0 +1,74 @@
+@import "public.less";
+
+.refund-status{
+	position: relative;
+	margin-top: 15px;
+	&-circle{
+		width: 30px;
+		height: 30px;
+		border-radius: 15px;
+		line-height: 30px;
+		text-align: center;
+		color: #fff;
+		margin: 0 auto;
+		z-index: 2;
+		position: relative;
+		&:before{
+			content: ' ';
+			width: 5px;
+			position: absolute;
+			left: -5px;
+			top: 0;
+			height: 30px;
+			background-color: #fff;
+		}
+		&:after{
+			content: ' ';
+			width: 5px;
+			background-color: #fff;
+			position: absolute;
+			left: 30px;
+			top: 0;
+			height: 30px;
+		}
+	}	
+	.refund-status-item(){
+		height: 70px;
+		text-align: center;
+		display: inline-block;
+		overflow: hidden;
+	}
+	&-font{
+		color: @ck-sub;
+	}
+
+	&-item{
+		.refund-status-item();
+		.refund-status-circle{
+			background-color: #bbb;
+		}
+
+
+		&-active{
+			.refund-status-item();
+			.refund-status-circle{
+				background-color: @ck-sub;
+			}
+		}
+	}
+
+	&-line{
+		position: absolute;
+		top: 15px;
+		right: 0;
+		left: 0;
+		margin: 0 auto;
+		width: 70%;
+		padding-left: 15px;
+		padding-right: 15px;
+		z-index: 1;
+		&-item{
+			border-top: solid 2px #aaa;
+		}
+	}
+}

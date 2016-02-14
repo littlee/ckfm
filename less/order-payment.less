@@ -1,0 +1,134 @@
+@import "public.less";
+@success-color: #8cc63f;
+.order-payment {
+  &-module {
+    .clearfix();
+    margin-top: 40px;
+  }
+  &-form {
+    .form-group {
+      background: #fff;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      margin-bottom: 30px;
+      margin-left: 0;
+      margin-right: 0;
+      &:last-child {
+        background: transparent;
+      }
+      .tips {
+        display: block;
+        float: left;
+        text-align: justify;
+        padding: 10px 16px;
+        color: @ck-strong;
+      }
+    }
+    .control-label {
+      padding-top: 7px;
+    }
+    .f-pay-amount-label {
+      .one-line();
+      text-indent: 1em;
+    }
+    .order-payment-payby-label {
+      text-align: center;
+      margin-bottom: 0;
+      letter-spacing: 1px;
+      background: #fffbf8;
+    }
+    .order-payment-protocol {
+      text-align: center;
+      background: transparent;
+      margin-bottom: 0;
+    }
+    .form-control {
+      border: 0;
+      box-shadow: none;
+    }
+    .order-payment {
+      &-way {
+        padding-top: 0;
+        padding-bottom: 0;
+        .ck-radio {
+          padding-left: 12px;
+          letter-spacing: 1px;
+        }
+        &-item {
+          border-top: 1px solid #ccc;
+          border-bottom: 1px solid #ccc;
+          padding-top: 11px;
+          padding-bottom: 11px;
+        }
+        &-item + .order-payment-way-item {
+          border-top: 0;
+        }
+
+        .locked {
+          background: #f7f7f7;
+        }
+      }
+    }
+  }
+  &-amount-text {
+    color: @ck-strong;
+    text-align: right;
+  }
+  &-modal {
+    &-title {
+      .one-line();
+      padding-top: 8px;
+      padding-bottom: 18px;
+      border-bottom: 1px solid #ccc;
+      margin: 0;
+      text-align: center;
+    }
+  }
+  &-password-form {
+    margin-top: 10px;
+    .btn {
+      color: #fff;
+    }
+    .error-message {
+      span {
+        padding: 6px 12px;
+        display: block;
+      }
+    }
+    .confirm-button-group {
+      .clearfix();
+      margin-top: 10px;
+    }
+  }
+  &-cooka-amount {
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    &.red {
+      color: @ck-strong;
+    }
+    &.green {
+      color: @success-color;
+    }
+  }
+
+  &-bad-request {
+    .clearfix();
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    &-logo {
+      color: @ck-strong;
+      span {
+        font-size: 50px;
+      }
+    }
+    &-tips {
+      color: @ck-strong;
+      padding: 12px 0;
+    }
+    &-rt {
+      color: @ck-strong;
+    }
+  }
+}

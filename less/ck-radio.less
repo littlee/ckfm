@@ -1,0 +1,73 @@
+@import "public.less";
+
+.ck-radio {
+	display: inline-block;
+	position: relative;
+	> label {
+		margin: 0;
+		padding: 0;
+		min-width: 20px;
+		min-height: 20px;
+		display: inline-block;
+		font-weight: normal;
+		vertical-align: middle;
+		position: relative;
+	}
+
+	input[type="radio"] {
+		margin: 0;
+		padding: 0;
+		opacity: 0;
+		position: absolute;
+		z-index: 9;
+		top: 0;
+		left: 0;
+		display: block;
+		width: 20px;
+		height: 20px;
+
+	}
+
+	input[type="radio"]:checked + .icons {
+		.icon-true {
+			visibility: visible;
+		}
+		.icon-false {
+			visibility: hidden;
+		}
+	}
+
+	&-text {
+		display: inline-block;
+		padding-left: 25px;
+		vertical-align: middle;
+	}
+
+	.icons {
+		font-size: 20px;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		margin-top: auto;
+		margin-right: auto;
+		left: 0;
+		display: block;
+		width: 20px;
+		height: 20px;
+	}
+
+	.icon-true {
+		color: #ED1C24;
+		visibility: hidden;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	.icon-false {
+		color: #999;
+		visibility: visible;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+}

@@ -1,0 +1,63 @@
+@import "public.less";
+
+.sequence {
+	&-btn {
+		display: block;
+		float: left;
+		text-decoration: none;
+		color: #999;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    white-space: nowrap;
+    padding: 9px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+
+		&:active,
+		&:hover,
+		&:focus,
+		&:visited {
+			text-decoration: none;
+			color: #999;
+		}
+
+		& + .sequence-btn {
+			border-left: 0;
+		}
+
+		&.active {
+			background: @ck-main;
+			color: #fff;
+		}
+		&-state {
+			font-size: 14px;
+			position: relative;
+		}
+
+		&-grid,
+		&-line {
+			display: block;
+			float: left;
+			width: 40px;
+			height: 40px;
+			border: 1px solid #ccc;
+			position: relative;
+			span {
+				position: absolute;
+				font-size: 30px;
+				top: 0;
+				left: 0;
+				padding: 5px;
+			}
+		}
+		&-group {
+			width: 100%;
+			font-size: 26px;
+			background: #fff;
+			.clearfix();
+		}
+	}
+}

@@ -1,0 +1,114 @@
+@import "public.less";
+
+@money-color: #fcee21;
+.financial-account {
+  &-module {
+    .clearfix();
+    margin-top: 40px;
+    .money-text {
+      letter-spacing: 2px;
+    }
+  }
+  &-amount-box {
+    background: @ck-sub-light;
+    padding-bottom: 20px;
+  }
+  &-total-amount {
+    .amount {
+      color: @money-color;
+      margin: 0;
+      padding: 32px 0 20px 0;
+      text-align: center;
+      font-size: 20px;
+    }
+    .des {
+      color: #fff;
+      text-align: center;
+      font-size: 16px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      margin: 0;
+      padding-bottom: 3px;
+    }
+  }
+  &-disposable-amount,
+  &-blocked-amount {
+    color: #fff;
+    margin: 0;
+    padding: 10px 16px;
+  }
+  &-disposable-amount + &-blocked-amount {
+    padding-top: 0;
+  }
+  &-disposable-amount {
+    font-size: 15px;
+    .money-text {
+      color: @money-color;
+    }
+  }
+  &-operation {
+    .clearfix();
+    background: #fff;
+
+    &.fix-bottom {
+      margin-bottom: 50px;
+    }
+    &-item.line {
+      display: block;
+      text-decoration: none;
+      height: 46px;
+      padding: 0 12px;
+      span {
+        display: block;
+        float: left;
+        &:first-child {
+          font-size: 20px;
+          padding: 8px;
+          border-radius: 18px;
+          background-color: @ck-sub-light;
+          color: #fff;
+          margin-top: 5px;
+        }
+        &:nth-child(2) {
+          font-size: 16px;
+          color: #333;
+          margin-left: 20px;
+          padding: 12px 0;
+          letter-spacing: 2px;
+        }
+        &:nth-child(3) {
+          font-size: 30px;
+          float: right;
+          margin-top: 8px;
+          color: #ccc;
+        }
+      }
+      & + & {
+        border-top: 1px solid #ccc;
+      }
+    }
+
+    &-item.grid {
+      display: block;
+      text-decoration: none;
+      height: 95px;
+      width: 50%;
+      float: left;
+      box-shadow: 1px 1px 1px 0 #ccc;
+      color: #333;
+      span {
+        display: block;
+        text-align: center;
+        &:first-child {
+          color: @ck-main;
+          font-size: 40px;
+          padding: 12px 0;
+        }
+        &:nth-child(2) {
+          letter-spacing: 2px;
+          .one-line();
+        }
+      }
+    }
+  }
+}

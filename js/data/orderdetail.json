@@ -1,0 +1,222 @@
+{
+    "order": {
+        "orderId": 108,
+        "orderSerialnum": "14522463208585685",
+        "buyerId": 1,
+        "paymentOrderId": 136,
+        "shippingId": 0,
+        "deliveraddrId": 1,
+        "createTime": 1452246320000,
+        "payTime": 1452246323000,
+        "payMessage": "testPayMessage",
+        "shippingCode": "testShippingCode",
+        "shippingCost": 0,
+        "totalPrice": 15002000,
+        "allowSegmentalDelivery": true,
+        "isCommented": true,
+        "status": 80,
+        "disputeStatus": 1,
+        "isSettled": true,
+        "isDelivered": true
+    },
+    "orderItemsForms": [
+        {
+            "productId": 4332,
+            "combination": null,
+            "imageUrl": "http://image.cookabuy.com/group1/M00/12/60/CvOC0VaDQpWAKa-JAAI-jW2H88g88.file",
+            "orderItems": [
+                {
+                    "itemId": 438,
+                    "itemSerialNum": "14522463208596397",
+                    "orderId": 108,
+                    "storeId": 130,
+                    "productId": 4332,
+                    "imageUrl": "http://image.cookabuy.com/group1/M00/12/60/CvOC0VaDQpWAKa-JAAI-jW2H88g88.file",
+                    "combinationId": 53824,
+                    "amount": 5,
+                    "price": 562000,
+                    "realPrice": 2810000,
+                    "isInStock": true,
+                    "isConfirmed": true,
+                    "status": "normal",
+                    "disputeProgress": 0,
+                    "specificationValues": {
+                        "颜色": "酒红色",
+                        "尺码": "180/92A"
+                    },
+                    "title": "男装韩版冬季男士加绒毛呢大衣修身毛呢子短款大衣潮",
+                    "purchasePrice": 130,
+                    "productNum": "180#",
+                    "applyDisputePermit": true,
+                    "totalPrice": 0
+                }
+            ],
+            "productNum": "180#",
+            "totalPrice": 2810000,
+            "storeName": null,
+            "ignoreAmountLimit": null
+        },
+        {
+            "productId": 4334,
+            "combination": null,
+            "imageUrl": "http://image.cookabuy.com/group1/M00/12/5F/CvOC0VaDQVmAX601AAH6rCWuw2M97.file",
+            "orderItems": [
+                {
+                    "itemId": 439,
+                    "itemSerialNum": "14522463208621641",
+                    "orderId": 108,
+                    "storeId": 130,
+                    "productId": 4334,
+                    "imageUrl": "http://image.cookabuy.com/group1/M00/12/5F/CvOC0VaDQVmAX601AAH6rCWuw2M97.file",
+                    "combinationId": 53851,
+                    "amount": 5,
+                    "price": 601000,
+                    "realPrice": 3005000,
+                    "isInStock": true,
+                    "isConfirmed": true,
+                    "status": "normal",
+                    "disputeProgress": 0,
+                    "specificationValues": {
+                        "颜色": "黑白格",
+                        "尺码": "L"
+                    },
+                    "title": "秋冬季男士外套风衣中长款毛呢大衣潮 复古潮男格子休闲风衣",
+                    "purchasePrice": 139,
+                    "productNum": "5073#",
+                    "applyDisputePermit": true,
+                    "totalPrice": 0
+                }
+            ],
+            "productNum": "5073#",
+            "totalPrice": 3005000,
+            "storeName": null,
+            "ignoreAmountLimit": null
+        },
+        {
+            "productId": 4335,
+            "combination": null,
+            "imageUrl": "http://image.cookabuy.com/group1/M00/12/60/CvOC0VaDQiqAKYJUAALv2VzlVl051.file",
+            "orderItems": [
+                {
+                    "itemId": 440,
+                    "itemSerialNum": "14522463208674383",
+                    "orderId": 108,
+                    "storeId": 130,
+                    "productId": 4335,
+                    "imageUrl": "http://image.cookabuy.com/group1/M00/12/60/CvOC0VaDQiqAKYJUAALv2VzlVl051.file",
+                    "combinationId": 53854,
+                    "amount": 6,
+                    "price": 467000,
+                    "realPrice": 2802000,
+                    "isInStock": true,
+                    "isConfirmed": true,
+                    "status": "normal",
+                    "disputeProgress": 0,
+                    "specificationValues": {
+                        "颜色": "深灰色",
+                        "尺码": "XL"
+                    },
+                    "title": "【爆】2015秋冬季毛呢大衣男中长款韩版修身呢子风衣男装外套",
+                    "purchasePrice": 108,
+                    "productNum": "901#",
+                    "applyDisputePermit": true,
+                    "totalPrice": 0
+                }
+            ],
+            "productNum": "901#",
+            "totalPrice": 2802000,
+            "storeName": null,
+            "ignoreAmountLimit": null
+        },
+        {
+            "productId": 4336,
+            "combination": null,
+            "imageUrl": "http://image.cookabuy.com/group1/M00/12/5F/CvOC0VaDQZuAAc_yAAHZz1Ma5Bo26.file",
+            "orderItems": [
+                {
+                    "itemId": 441,
+                    "itemSerialNum": "14522463208711504",
+                    "orderId": 108,
+                    "storeId": 130,
+                    "productId": 4336,
+                    "imageUrl": "http://image.cookabuy.com/group1/M00/12/5F/CvOC0VaDQZuAAc_yAAHZz1Ma5Bo26.file",
+                    "combinationId": 53858,
+                    "amount": 5,
+                    "price": 778000,
+                    "realPrice": 3890000,
+                    "isInStock": true,
+                    "isConfirmed": true,
+                    "status": "normal",
+                    "disputeProgress": 0,
+                    "specificationValues": {
+                        "颜色": "深蓝色",
+                        "尺码": "XXL"
+                    },
+                    "title": "冬季男士风衣中长款加厚修身青年韩版英伦毛呢大衣带围巾外套潮",
+                    "purchasePrice": 180,
+                    "productNum": "6219#",
+                    "applyDisputePermit": true,
+                    "totalPrice": 0
+                }
+            ],
+            "productNum": "6219#",
+            "totalPrice": 3890000,
+            "storeName": null,
+            "ignoreAmountLimit": null
+        },
+        {
+            "productId": 4337,
+            "combination": null,
+            "imageUrl": "http://image.cookabuy.com/group1/M00/12/5F/CvOC0VaDQe2AVTXqAAImanakyV803.file",
+            "orderItems": [
+                {
+                    "itemId": 442,
+                    "itemSerialNum": "14522463208756614",
+                    "orderId": 108,
+                    "storeId": 130,
+                    "productId": 4337,
+                    "imageUrl": "http://image.cookabuy.com/group1/M00/12/5F/CvOC0VaDQe2AVTXqAAImanakyV803.file",
+                    "combinationId": 53865,
+                    "amount": 5,
+                    "price": 499000,
+                    "realPrice": 2495000,
+                    "isInStock": true,
+                    "isConfirmed": true,
+                    "status": "normal",
+                    "disputeProgress": 0,
+                    "specificationValues": {
+                        "颜色": "红色",
+                        "尺码": "XXL"
+                    },
+                    "title": "新款秋冬装男士呢子外套加厚毛呢大衣中长款男装休闲韩版高端",
+                    "purchasePrice": 115.46,
+                    "productNum": "805#",
+                    "applyDisputePermit": true,
+                    "totalPrice": 0
+                }
+            ],
+            "productNum": "805#",
+            "totalPrice": 2495000,
+            "storeName": null,
+            "ignoreAmountLimit": null
+        }
+    ],
+    "cancelOrderReason": null,
+    "buyer": "cooka",
+    "deliverAddr": {
+        "deliveraddrId": 1,
+        "userId": 0,
+        "name": "212",
+        "phone": "2121",
+        "country": "越南",
+        "state": "岘港（直辖市）",
+        "city": "岘港（直辖市）",
+        "region": "清溪区",
+        "addrDetail": "21212",
+        "zipcode": "212121",
+        "isDefault": true,
+        "address": null
+    },
+    "statusName": "tradeSuccess",
+    "priceBefore": 15002000
+}

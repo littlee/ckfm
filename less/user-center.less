@@ -1,0 +1,190 @@
+@import "public.less";
+
+.user-center {
+	margin-top: 40px;
+
+	&-header {
+		background: url(../images/user_center_bg.jpg);
+		color: white;
+	}
+
+	&-avatar {
+		text-align: center;
+		padding-top: 10px;
+	
+		&-img {
+			width: 85px;
+			height: 85px;
+			border: 5px solid rgba(255, 255, 255, 0.5);
+			border-radius: 50%;
+		}
+	}
+
+	&-username {
+		margin-top: 10px;
+		text-align: center;
+		font-size: 18px;
+	}
+
+	&-order {
+		.clearfix();
+		background-color: rgba(0, 0, 0, 0.3);
+
+		&-link {
+			display: block;
+			float: left;
+			width: 50%;
+			text-align: center;
+			color: white;
+			padding: 10px 5px;
+
+			&:hover,
+			&:focus,
+			&:active {
+				color: white;
+				text-decoration: none;
+			}
+		}
+	}
+
+	&-nav {
+		.clearfix();
+		margin: 10px 0;
+		padding: 10px 0;
+		background-color: white;
+		&-item {
+			display: block;
+			float: left;
+			width: 25%;
+			text-align: center;
+
+			&:hover,
+			&:focus,
+			&:active {
+				text-decoration: none;
+			}
+
+			&:nth-child(1) {
+				.user-center-nav-icon {
+					background-color: #e5693b;
+				}
+			}
+			&:nth-child(2) {
+				.user-center-nav-icon {
+					background-color: #e0755c;
+				}
+			}
+			&:nth-child(3) {
+				.user-center-nav-icon {
+					background-color: #eaa75e;
+				}
+			}
+			&:nth-child(4) {
+				.user-center-nav-icon {
+					background-color: #eb9532;
+				}
+			}
+			&:nth-child(5) {
+				.user-center-nav-icon {
+					background-color: #4aa8c6;
+				}
+			}
+			&:nth-child(6) {
+				.user-center-nav-icon {
+					background-color: #76a3cc;
+				}
+			}
+			&:nth-child(7) {
+				.user-center-nav-icon {
+					background-color: #9a93c6;
+				}
+			}
+			&:nth-child(8) {
+				.user-center-nav-icon {
+					background-color: #4dbc8a;
+				}
+			}
+		}
+
+		&-icon {
+			color: white;
+			display: block;
+			background-color: gray;
+			border-radius: 50%;
+			width: 45px;
+			height: 45px;
+			margin: 5px auto;
+			position: relative;
+
+			[class^="icon-"], [class*=" icon-"] {
+				font-size: 30px;
+				.abs-center(30px, 30px)
+			}
+		}
+
+		&-text {
+			color: #333;
+			display: block;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+	}
+
+	&-links {
+		background-color: white;
+	}
+
+	&-link {
+		display: block;
+		color: #333;
+		padding: 10px;
+		position: relative;
+		border-bottom: 1px solid #ddd;
+
+		&:hover,
+		&:focus,
+		&:active {
+			background-color: #eee;
+			color: #555;
+			text-decoration: none;
+		}
+
+		&:first-child {
+			border-top: 1px solid #ddd;
+		}
+
+		[class^="icon-"], [class*=" icon-"] {
+			font-size: 24px;
+			display: block;
+			width: 24px;
+			height: 24px;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			margin-top: auto;
+			margin-bottom: auto;
+			right: 10px;
+		}
+	}
+
+	&-sign-out {
+		display: block;
+		border: 1px solid @ck-main;
+		background-color: transparent;
+		width: 90%;
+		text-align: center;
+		color: @ck-main;
+		padding: 10px 0;
+		margin: 10px auto;
+		border-radius: 5px;
+		font-size: 18px;
+
+		&:hover,
+		&:focus,
+		&:active {
+			color: white;
+			background-color: @ck-main;
+		}
+	}
+}

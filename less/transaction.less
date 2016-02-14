@@ -1,0 +1,73 @@
+@import "public.less";
+.transaction {
+  &-module {
+    margin-top: 85px;
+    .clearfix();
+  }
+
+  &-table {
+    table-layout: fixed;
+    tbody {
+      table-layout: fixed;
+      & > tr > td {
+        width: 32%;
+        vertical-align: middle;
+        &:last-child {
+          width: 4%;
+          position: relative;
+          .next-icon {
+            position: absolute;
+            left: -50%;
+            top: 21.5px;
+          }
+        }
+      }
+    }
+    &-title {
+      background: #fff;
+      position: fixed;
+      display: table;
+      width: 100%;
+      top: 40px;
+      left: 0;
+      border-bottom: 1px solid #ccc;
+      z-index: 100;
+      &-item {
+        display: table-cell;
+        width: 32%;
+        height: 45px;
+        text-align: center;
+        vertical-align: middle;
+        padding-left: 8px;
+        padding-right: 8px;
+        letter-spacing: 1px;
+        &:last-child {
+          width: 4%;
+        }
+      }
+    }
+  }
+
+  &-item {
+    background: #fff;
+    text-align: center;
+    vertical-align: middle;
+    &-time,
+    &-amount,
+    &-status {
+      letter-spacing: 1px;
+    }
+    &-time {
+      height: 57px;
+    }
+    &-amount {
+      .one-line();
+      &.color-red {
+        color: @ck-strong;
+      }
+      &.color-green {
+        color: @ck-success;
+      }
+    }
+  }
+}

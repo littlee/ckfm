@@ -1,0 +1,24 @@
+[
+    {
+        "name": "isSetSecurityAns",
+        "value": true
+    },
+    {
+        "name": "isFinancialActive",
+        "value": false
+    },
+    {
+        "name": "isSetEmail",
+        "value": true,
+        "isDefault": true
+    },
+    {
+        "name": "isSetPhone",
+        "value": false,
+        "isDefault": false
+    },
+    {
+        "name": "isSetPassword",
+        "value": true
+    }
+]

@@ -1,0 +1,16 @@
+{
+    "recommend": [
+        {
+            "image": "images/home/carousel1.jpg",
+            "title":"牛仔牛仔裤牛仔裤牛仔裤牛仔裤牛仔裤牛仔裤牛仔裤牛仔裤牛仔裤裤",
+            "price": [9,5,2],
+            "productId":1
+        },
+        {
+            "image": "images/home/carousel2.jpg",
+            "title":"牛仔裤",
+            "price": [9,5,2],
+            "productId":14
+        }
+    ]
+}

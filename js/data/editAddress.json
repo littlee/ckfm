@@ -1,0 +1,53 @@
+{
+    "deliveraddrId": 55,
+    "name": "cooka",
+    "country": "jdf",
+    "state": "hdfh",
+    "city": "gsdh",
+    "region": "gxfy",
+    "addrDetail": "jkdsng",
+    "zipcode": "8954896",
+    "isDefault": false,
+    "phone": "15200000000",
+    "address": [
+        {
+            "name": "country",
+            "value": "jdf",
+            "child": "State",
+            "items":
+                {
+                    "1": "asdas",
+                    "2": "jdf"
+                }
+        },
+        {
+            "name": "state",
+            "value": "hdfh",
+            "child": "City",
+            "items": 
+                {
+                    "1": "hdfh",
+                    "2": "jdf"
+                }
+        },
+        {
+            "name": "city",
+            "value": "gsdh",
+            "child": "Region",
+            "items": 
+                {
+                    "1": "gsdh",
+                    "2": "jdf"
+                }
+        },
+        {
+            "name": "region",
+            "value": "gxfy",
+            "items": 
+                {
+                    "1": "asdas",
+                    "2": "gxfy"
+                }
+        }
+    ]
+}

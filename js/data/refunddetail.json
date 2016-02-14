@@ -1,0 +1,18 @@
+{
+    "type": "return",
+    "orderSerialnum": "323232",
+    "imageUrl": "http://image.cookabuy.com/group1/M00/12/60/CvOC0VaDQpWAKa-JAAI-jW2H88g88.file",
+    "productId": "222",
+    "title": "3sdsd",
+    "specificationValues": {
+        "尺码": "66cm",
+        "颜色": "红色"
+    },
+    "amount": 12,
+    "disputeSerialNum": "34343",
+    "money": "34",
+    "reason": "gfgfg",
+    "description": "34343",
+    "statusName": "waitConfirm",
+    "createTimeString": "2015-12-12 12:12:12"
+}

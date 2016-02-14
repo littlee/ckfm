@@ -1,0 +1,83 @@
+{
+  "searchResult": {
+    "query": "tr",
+    "searchProducts": [{
+      "url": "productdetail/14",
+      "image": "http://img13.360buyimg.com/n8/jfs/t2527/328/608697800/266176/72ae52e7/565a7b75Nb46f9b98.jpg",
+      "title": "Quần lót nữ",
+      "start": 4,
+      "commentary": 65,
+      "priceRange": "100.00-200.00"
+    }, {
+      "url": "productdetail/14",
+      "image": "http://img13.360buyimg.com/n8/jfs/t2527/328/608697800/266176/72ae52e7/565a7b75Nb46f9b98.jpg",
+      "title": "Áo lót nữ",
+      "start": 4,
+      "commentary": 65,
+      "priceRange": "100.00-300.00"
+    }, {
+      "url": "productdetail/14",
+      "image": "http://img13.360buyimg.com/n8/jfs/t2527/328/608697800/266176/72ae52e7/565a7b75Nb46f9b98.jpg",
+      "title": "这是测试数据这是测试数据这是测试数据这是测试数据这是测试数据这是测试数据",
+      "start": 3,
+      "commentary": 65,
+      "priceRange": "200.00-400.00"
+    }, {
+      "url": "productdetail/14",
+      "image": "http://img13.360buyimg.com/n8/jfs/t2527/328/608697800/266176/72ae52e7/565a7b75Nb46f9b98.jpg",
+      "title": "Áo nỉ in họa tiết",
+      "start": 4,
+      "commentary": 65,
+      "priceRange": "100.00-200.00"
+    }, {
+      "url": "productdetail/14",
+      "image": "http://img13.360buyimg.com/n8/jfs/t2527/328/608697800/266176/72ae52e7/565a7b75Nb46f9b98.jpg",
+      "title": "Áo nỉ in họa tiết",
+      "start": 5,
+      "commentary": 65,
+      "priceRange": "400.00-1200.00"
+    }],
+    "showType": "line",
+    "sequence": [1, "Default", "Newest", {
+      "name": "Price",
+      "state": "down"
+    }],
+    "comment": "searchProducts为搜索的商品结果；showType为显示类型；sequence为排序按钮，第一个元素为激活的排序索引，后面的元素如果是string类型，则只显示名称，如果为object类型，则显示名称和上或下的状态，名称由name决定，状态由state决定"
+  },
+  "searchCondition": {
+    "price": [0, 0, 1000],
+    "score": [0, 0, 4],
+    "categories": [1, {
+      "categoryId": 1,
+      "name": "T-shirt"
+    }, {
+      "categoryId": 2,
+      "name": "shirt"
+    }, {
+      "categoryId": 3,
+      "name": "s-shirt"
+    }, {
+      "categoryId": 4,
+      "name": "clond-shirt"
+    }, {
+      "categoryId": 5,
+      "name": "lesi"
+    }, {
+      "categoryId": 6,
+      "name": "vest"
+    }, {
+      "categoryId": 7,
+      "name": "bowser"
+    }, {
+      "categoryId": 8,
+      "name": "dresses"
+    }],
+    "activeItems": {
+      "score": [0, 3],
+      "price": [0 , 100000]
+    },
+    "screeningState": true,
+    "resultAmount": 3000,
+    "comment": "属性Price,Score,Categories,Size的第一个参数是说明改搜索条件显示的UI类型，0为范围选择，1为标签，2为列表。price和score的后两个参数是初始化的选择范围， 一般保持不变;categories后面的元素是当前要渲染在页面上面的所有的分类， 但是不确定是不是系统的所有分类， 每个分类有两个键， categoryId是系统定改分类的ID， name是该分类的名称， 也是页面要渲染的名称；ResultAmount为搜索结果的数量;activeItem是被激活的筛选项;comment只是解析， 不会被使用 "
+  }
+}

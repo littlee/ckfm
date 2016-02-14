@@ -1,0 +1,77 @@
+@import "public.less";
+
+.header-nav {
+	background-color: rgba(0, 0, 0, 0.7);
+	height: 60px;
+	position: fixed;
+	top: 40px;
+	left: 0;
+	width: 100%;
+
+	&-item {
+		display: block;
+		float: left;
+		color: white;
+		width: 25%;
+		text-align: center;
+
+		&:hover,
+		&:focus,
+		&:active {
+			color: white;
+			text-decoration: none;
+		}
+
+	}
+
+	&-icon {
+		display: block;
+		font-size: 32px;
+		height: 40px;
+	}
+
+	&-text {
+		display: block;
+	}
+
+	&-opener {
+		width: 40px;
+		height: 40px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		border-right: 1px solid #999;
+		color: @ck-sub;
+
+		&:hover,
+		&:focus,
+		&:active {
+			color: @ck-sub;
+			text-decoration: none;
+		}
+
+		&.active {
+			color: white;
+			background-color: @ck-sub;
+		}
+
+		[class^="icon-"],
+		[class*=" icon-"] {
+			font-size: 24px;
+			.abs-center(24px, 24px);
+		}
+
+		// sub class
+		&.header-nav-opener-right {
+			left: auto;
+			right: 0;
+			border-left: 1px solid #999;
+			border-right: none;
+		}
+	}
+
+	&-item {
+
+	}
+
+}

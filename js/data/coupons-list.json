@@ -1,0 +1,48 @@
+{"unused":[
+    {
+        "couponSerialNum": "14502640800537311",
+        "name": "满3000000减2000",
+        "subPrice": 2000,
+        "priceCondition": 10800000,
+        "description": "满3000000减2000",
+        "useTimeStart": "2015/12/16",
+        "useTimeEnd": "2015/12/31",
+        "isAvailable": true
+    },
+    {
+        "couponSerialNum": "14502640800537316",
+        "name": "满3000000减2000",
+        "subPrice": 2000,
+        "priceCondition": 10800000,
+        "description": "满3000000减2000",
+        "useTimeStart": "2015/12/16",
+        "useTimeEnd": "2015/12/31",
+        "isAvailable": false
+    }
+],
+"used":[
+   
+],
+"expired":[
+    {
+        "couponSerialNum": "14502640800537311",
+        "name": "满3000000减2000",
+        "subPrice": 2000,
+        "priceCondition": 10800000,
+        "description": "满3000000减2000",
+        "useTimeStart": "2015/12/16",
+        "useTimeEnd": "2015/12/31",
+        "isAvailable": true
+    },
+    {
+        "couponSerialNum": "14502640800537316",
+        "name": "满3000000减2000",
+        "subPrice": 2000,
+        "priceCondition": 10800000,
+        "description": "满3000000减2000",
+        "useTimeStart": "2015/12/16",
+        "useTimeEnd": "2015/12/31",
+        "isAvailable": false
+    }
+]
+}

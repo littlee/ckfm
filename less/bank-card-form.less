@@ -1,0 +1,74 @@
+@import "public.less";
+
+.bank-card-form {
+  .control-label {
+    padding-top: 7px;
+  }
+  .card-icon {
+    text-align: center;
+    font-size: 40px;
+    color: @ck-main;
+    img {
+      height: 30px;
+    }
+    .exception {
+      font-size: 14px;
+      text-align: center;
+      color: @ck-strong;
+    }
+  }
+  .control-label {
+    width: 30%;
+    padding-left: 12px;
+    padding-right: 12px;
+    display: block;
+    float: left;
+    overflow: hidden;
+    height: 27px;
+    text-align: justify;
+    text-align-last: justify;
+    margin: 0;
+    &:after {
+      display:inline-block;
+      content:'';
+      overflow:hidden;
+      width:100%;
+      height:0;
+    }
+  }
+  .colon {
+    width: 3%;
+    display: block;
+    padding-top: 7px;
+    float: left;
+  }
+  .form-group {
+    border: 1px solid #ccc;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background: #fff;
+    margin-bottom: 0;
+    .form-control {
+      border: 0;
+      box-shadow: none;
+    }
+  }
+  .form-group:first-of-type {
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+  }
+  .form-group:last-of-type {
+    padding-top: 0;
+    padding-bottom: 0;
+    border: 0;
+    background: transparent;
+    margin-top: 30px;
+    .btn {
+      letter-spacing: 10px;
+    }
+  }
+  .form-group + .form-group {
+    border-top: 0;
+  }
+}

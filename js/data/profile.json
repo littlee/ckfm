@@ -1,0 +1,11 @@
+{
+    "image": "images/avatar.jpg",
+    "name": "[name]",
+    "gender": "male",
+    "country": "country",
+    "state": "state",
+    "city": "city",
+    "region": "region",
+    "addrDetail": "星光映景12楼09",
+    "addrCount": 2
+}

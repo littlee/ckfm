@@ -1,0 +1,139 @@
+{
+    "product": [
+        {
+            "productName": "低胸V领纯色毛衣",
+            "productId": 851,
+            "price": [
+                87000,
+                83000,
+                75000
+            ],
+            "range": [
+                5,
+                11,
+                31
+            ],
+            "active": false,
+            "unit": "件",
+            "collected": true,
+            "combination": [
+                {
+                    "combinationId": 53688,
+                    "productId": null,
+                    "combination": null,
+                    "amount": 3,
+                    "productCode": null,
+                    "getamount": 10000,
+                    "getcomprice": null,
+                    "productItemId": null,
+                    "itemId": 513,
+                    "specificationValue": {
+                        "尺码": "Free Size均码",
+                        "颜色": "红色"
+                    }
+                },
+                {
+                    "combinationId": 53681,
+                    "productId": null,
+                    "combination": null,
+                    "amount": 3,
+                    "productCode": null,
+                    "getamount": 10000,
+                    "getcomprice": null,
+                    "productItemId": null,
+                    "itemId": 51,
+                    "specificationValue": {
+                        "尺码": "Free Size均码",
+                        "颜色": "红色"
+                    }
+                },
+                {
+                    "combinationId": 53682,
+                    "productId": null,
+                    "combination": null,
+                    "amount": 3,
+                    "productCode": null,
+                    "getamount": 10000,
+                    "getcomprice": null,
+                    "productItemId": null,
+                    "itemId": 52,
+                    "specificationValue": {
+                        "尺码": "Free Size均码",
+                        "颜色": "红色"
+                    }
+                }
+            ],
+            "productImage": "http://image.cookabuy.com/group1/M00/02/93/CvOC0VZPJ7eAVUbuAAaLQnJNAic76.file"
+        },
+        {
+            "productName": "秋装新款女装上衣毛衣女宽松秋天外套潮韩版学生秋季秋款套头925#",
+            "productId": 919,
+            "price": [
+                195000,
+                187000,
+                179000
+            ],
+            "range": [
+                5,
+                11,
+                31
+            ],
+            "active": true,
+            "unit": "件",
+            "collected": true,
+            "combination": [
+                {
+                    "combinationId": 44259,
+                    "productId": null,
+                    "combination": null,
+                    "amount": 27,
+                    "productCode": null,
+                    "getamount": 9995,
+                    "getcomprice": null,
+                    "productItemId": null,
+                    "itemId": 503,
+                    "specificationValue": {
+                        "尺码": "均码",
+                        "颜色": "红色"
+                    }
+                }
+            ],
+            "productImage": "http://image.cookabuy.com/group1/M00/00/1F/CvOC0VY7BAaAaCBPAAcqij9ZxQk49.file"
+        },
+        {
+            "productName": "女中长款大衣外套",
+            "productId": 857,
+            "price": [
+                238000,
+                228000,
+                218000
+            ],
+            "range": [
+                5,
+                11,
+                31
+            ],
+            "active": true,
+            "unit": "件",
+            "collected": true,
+            "combination": [
+                {
+                    "combinationId": 50357,
+                    "productId": null,
+                    "combination": null,
+                    "amount": 2,
+                    "productCode": null,
+                    "getamount": 9865,
+                    "getcomprice": null,
+                    "productItemId": null,
+                    "itemId": 504,
+                    "specificationValue": {
+                        "尺码": "Free Size均码",
+                        "颜色": "咖啡色"
+                    }
+                }
+            ],
+            "productImage": "http://image.cookabuy.com/group1/M00/03/C4/CvOC0VZPWOiAa0jIAAbE8HJx4Us64.file"
+        }
+    ]
+}

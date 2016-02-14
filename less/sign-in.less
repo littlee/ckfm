@@ -1,0 +1,142 @@
+@import "public.less";
+@facebook: #3A5795;
+@google: #DB4437;
+.sign-in {
+	margin-top: 40px;
+
+	&-alert {
+		&:first-letter {
+			text-transform: uppercase;
+		}
+	}
+
+	&-logo {
+		padding-top: 30px;
+		text-align: center;
+	}
+
+	&-form {
+		margin-top: 15px;
+		padding-left: 10px;
+		padding-right: 10px;
+
+		.input-group-addon {
+			background: @ck-sub;
+			color: white;
+		}
+	}
+
+	&-links {
+		.clearfix();
+
+		> a {
+			color: #333;
+		}
+	}
+
+	&-social {
+		margin-top: 30px;
+		text-align: center;
+
+		&-text {
+			border-top: 1px solid #ccc;
+
+			> span {
+				display: inline-block;
+				padding: 0 10px;
+				position: relative;
+				top: -0.8em;
+				background: #f7f7f7;
+			}
+		}
+
+		&-links {
+			font-size: 50px;
+
+			> a {
+				margin: 0 10px;
+
+				&:hover,
+				&:focus,
+				&:active {
+					text-decoration: none;
+				}
+			}
+		}
+
+		&-facebook {
+			color: @facebook;
+
+			&:hover,
+			&:focus,
+			&:active {
+				color: lighten(@facebook, 10%);
+			}
+		}
+
+		&-google {
+			color: @google;
+
+			&:hover,
+			&:focus,
+			&:active {
+				color: lighten(@google, 10%);
+			}
+		}
+	}
+
+	&-switch {
+		position: absolute;
+		z-index: 99;
+		display: block;
+		top: 0;
+		right: 0;
+		width: 34px;
+		height: 34px;
+		background-color: rgba(0, 0, 0, 0.5);
+
+		&:hover,
+		&:focus,
+		&:active {
+			background-color: rgba(0, 0, 0, 0.7);
+		}
+
+		[class^="icon-"], [class*=" icon-"] {
+			color: white;
+			font-size: 24px;
+			.abs-center(24px, 24px);
+		}
+	}
+
+	&-c-code {
+		padding: 0;
+		background: white !important;
+		position: relative;
+
+		&-caret {
+			display: block;
+			position: absolute;
+			width: 0;
+			height: 0;
+			top: 14px;
+			right: 1px;
+			border: 6px solid #333;
+			border-left-color: transparent;
+			border-right-color: transparent;
+			border-bottom-color: transparent;
+		}
+
+		&-select {
+			color: #333;
+			padding: 7px 5px;
+			padding-right: 15px;
+			border: none;
+			-webkit-appearance: none;
+			-moz-appearance: none;
+		}
+	}
+
+	&-hint {
+		text-align: center;
+	}
+}

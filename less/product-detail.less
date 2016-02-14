@@ -1,0 +1,526 @@
+@import "public.less";
+
+/*slick*/
+.dots {
+	margin-left: 0;
+	width: 100%;
+	list-style: none;
+	text-align: center;
+	padding-left: 0;
+
+	li {
+		position: relative;
+		display: inline-block;
+		height: 20px;
+		width: 5px;
+		margin: 0 5px;
+		padding: 0;
+		cursor: pointer;
+
+		button {
+			border: 0;
+			background: 0 0;
+			display: block;
+			height: 20px;
+			width: 20px;
+			outline: 0;
+			line-height: 0;
+			font-size: 0;
+			color: transparent;
+			padding: 5px;
+			cursor: pointer;
+
+			&:before {
+				position: absolute;
+				top: 0;
+				left: 0;
+				content: "—";
+				height: 20px;
+				width: 20px;
+				font-size: 6px;
+				line-height: 20px;
+				text-align: center;
+				color: #000;
+				opacity: .25;
+			}
+
+		}
+
+		&.slick-active {
+			button:before {
+				opacity: 1;
+			}
+
+		}
+	}
+
+}
+.pro-detail-slick-slider{
+	.slick-slide {
+		height: 460px;
+		overflow: hidden;
+		width: 100%;
+		position: relative;
+		img {
+			max-width: 100%;
+			max-height: 100%;
+			position: absolute;;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			margin: auto;			
+		}
+	}
+}
+
+
+.pro-detail {
+	margin-bottom: 45px;
+	background-color: #fff;
+	&-carousel{
+
+		margin-top: 40px;
+	}
+
+	&-price {
+		color: @ck-strong;
+		font-weight: bold;
+		line-height: 28px;
+	}
+	&-link{
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.58);
+        float: right;
+        .btn{
+            border: 0;
+            margin-right: 5px;
+            background-color: rgba(190, 190, 190, 0.58);
+        	color: #fff;
+        	font-size: 20px;
+        	padding: 0 5px;
+        }
+        .btn-primary{
+            color: @ck-main;
+            background-color: #fff;
+        }
+    }
+    &-title{
+    	font-size: 14px;
+    	line-height: 20px;
+    	margin-top: 5px;
+    	margin-bottom: 5px;
+    }
+    &-table{
+    	margin-bottom: 2px;
+    	&-head{
+    		color: @ck-main;
+    		padding-left: 10px;
+    	}
+    	>tbody>tr>td{
+    		border-top: 0;
+    		border-left: 0;
+    		border-right: 0;
+    		text-align: center;
+    	}
+    	&-title{
+    		color: #666;
+    		width: 25%;
+    	}
+    	&-box{
+    		position: relative;
+    		padding-bottom: 5px;
+    		margin-bottom: 5px;
+    	}
+    	&-bar{
+    		width: 65%;
+    		position: absolute;
+    		top: 42%;
+    		left: 30%;
+    		height: 10px;
+    		background-color: #fff;
+    		border-radius: 5px;
+    		border: solid 1px #aaa;
+    		z-index: 1;
+    	}
+    	&-point{
+    		position: absolute;
+    		top: 0;
+    		bottom: 0;
+    		right: 0;
+    		left: 0;
+    		margin: auto;
+    		border-radius: 15px;
+    		width: 15px;
+    		height: 15px;    		
+    		border: solid 1px #aaa;
+    		background-color: #fff;
+    		z-index: 2;
+    	}
+    	&-td{
+    		position: relative;
+    	}
+    }
+    &-tolcomment{
+    	margin-left: 5px;
+    	color: #666;
+    }
+    &-tab{
+    	border-top: solid 2px #ddd;
+    	border-left: solid 2px #ddd;
+    	border-right: solid 2px #ddd;
+    	height: 31px;
+    	background: #fff;
+    	&-item{
+    		height: 30px;
+    		width: 50%;
+    		display: block;
+    		float: left;
+    		color: #000;
+    		text-align: center;
+    		padding: 5px;
+    		border-bottom: solid 2px #ddd;    		
+    		&.active,&:focus{
+    			border-color:@ck-main;
+    			border-width: 2px;
+    			text-decoration: none;
+    			color: @ck-main;
+    		}
+
+    	}
+    }
+    &-recommend{
+    	&-icon{
+    		width: 15px;
+    		height: 25px;
+    		background-color: @ck-sub;
+    		margin-right: 10px;
+    	}
+    }
+    &-child{
+    	border-bottom:solid 1px #ddd;
+    	border-left:solid 1px #ddd;
+    	border-right:solid 1px #ddd;
+    	background: #fff;
+    }
+    &-btn {
+		position: fixed;
+		bottom: 0px;
+		left: 0;
+		width: 100%;
+		background-color: #ababab;
+		padding: 5px 5px 0;
+		z-index: 1000;
+		vertical-align: middle;
+
+		&-item {
+			margin-right: 10px;
+			margin-left: 10px;
+		}
+
+		&-cart {
+			font-size: 28px;
+			color: #fff;
+			float: right;
+			margin-right: 20px;
+			position: relative;
+			background-color: #ababab;
+			padding: 0;
+			height: 35px;
+			margin-bottom: 5px;
+
+			&:focus {
+				background: #ddd;
+				color: #fff;
+			}
+
+		}
+
+		&-num {
+			position: absolute;
+			top: -5px;
+			right: -10px;
+			z-index: 5;
+			display: block;
+			background-color: @ck-main;
+			color: #fff;
+			padding: 0 5px;
+			border-radius: 10px;
+			font-size: 12px;
+		}
+
+	}
+
+}
+
+.comb {
+	&-form {
+		border-top: solid 1px #ccc;
+		border-bottom: solid 1px #ccc;
+		margin-bottom: 5px;
+		padding-top: 5px;
+		background-color: #fff;
+	}
+
+	&-title {
+		text-align: center;
+		line-height: 35px;
+		&-color{			
+			line-height: 50px;
+		}
+	}
+
+
+	&-li {		
+		vertical-align: middle;
+		overflow: hidden;
+	}
+
+	&-box {
+		width: 54px;
+		height: 54px;
+		position: relative;
+		border: solid 2px #eee;
+		overflow: hidden;
+	}
+
+	&-img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		width: 100%;
+		vertical-align: middle;
+		&-font{	
+			line-height: 50px;
+			padding: 0 3px;
+			vertical-align: middle;
+			text-align: center;		
+			margin: auto;
+			border: solid 2px #eee;
+			display: block;
+			position: relative;
+		}
+	}
+
+	&-font {
+		border: solid 1px #ddd;
+		padding-right: 2px;
+		padding-left: 2px;
+		vertical-align: middle;
+		position: relative;
+		min-width: 40px;
+		text-align: center;
+	}
+
+	&-choose {
+		border: solid 2px @ck-main;
+
+		&:after {
+			content: "";
+			position: absolute;
+			right: -2px;
+			bottom: -2px;
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: 7px;
+			border-top-color: transparent;
+			border-left-color: transparent;
+			border-right-color: @ck-main;
+			border-bottom-color: @ck-main;
+		}
+
+	}
+
+	&-total {
+		color: @ck-main;
+		line-height: 35px;
+		font-weight: bold;
+	}
+
+}
+
+ul {
+	margin-bottom: 0
+}
+
+.ipt {
+	&-text::-webkit-inner-spin-button {
+		color: @ck-main;
+		text-align: center;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+	}
+
+}
+
+.purchased {
+	border-top: solid 1px #ccc;
+	border-bottom: solid 1px #ccc;
+	margin-bottom: 0;
+	text-align: center;
+
+	&-ul {
+		list-style: none;
+		padding-left: 0;
+		margin-top: 8px;
+		margin-bottom: 8px;
+
+		li {
+			height: 40px;
+			line-height: 40px;
+			margin-bottom: 5px;
+		}
+
+	}
+
+	&-box {
+		width: 80%;
+		float: left;
+		border: solid 1px #aaa;
+	}
+
+	&-img {
+		height: 40px;
+		position: relative;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+	}
+
+	img {
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+	}
+
+	&-font {
+		color: #aaa;
+		float: left;
+	}
+
+	&-val {
+		width: 20%;
+		float: left;
+		text-align: left;
+		padding-left: 5px;
+	}
+
+}
+
+.product-detail-comment {
+	border-bottom: solid 5px #eee;
+	padding: 5px;
+	margin-bottom: 5px;
+
+	&-buyer {
+		margin-left: 5px;
+	}
+
+	&-head {
+		border-bottom: solid 2px #ddd;
+	}
+
+	&-date {
+		text-align: right;
+		float: right;
+		color: #aaa;
+	}
+
+	&-star {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+	p {
+		margin-bottom: 5px;
+	}
+
+	&-append {
+		background-color: #eee;
+		padding: 5px;
+		margin-bottom: 5px;
+	}
+
+}
+
+.recommend {
+	margin-top: 5px;
+	border: solid 1px #ddd;
+	padding: 5px;
+	background-color: #fff;
+
+	&-item {
+		padding: 5px;
+		margin-top: 5px;
+		height: 160px;
+		text-align: center;
+	}
+
+	&-title {
+		font-size: 10px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		width: 100%;
+	}
+
+	&-font {
+		width: 100%;
+	}
+
+	&-price {
+		color: @ck-strong;
+	}
+	&-img-box{
+		height: 100px;
+		display: inline-block;
+		position: relative;
+		width: 100%;
+	}
+	&-slick-slider{
+		height: 160px;
+		.slick-slide {
+			img{
+				max-width: 100%;
+				max-height: 100%;
+				position: absolute;
+				top:0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				margin: auto; 
+			}
+		}
+	}
+}
+
+.btn-secondary {
+	background-color: @ck-sub;
+	color: #fff;
+	&:focus{
+		color: #fff;
+	}
+}
+
+.product-introduction {
+	text-align: center;
+
+	div {
+		margin-bottom: 10px;
+		width: 100%;
+	}
+	img{
+		max-width: 100%;
+	}
+
+}

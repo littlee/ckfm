@@ -1,0 +1,81 @@
+{
+    "orderId": 104,
+        "orderSerialnum": "14521485581425122",
+        "buyerId": 1,
+        "paymentOrderId": 132,
+        "deliveraddrId": 1,
+        "createTime": 1452148558000,
+        "completeTime": 1452837117000,
+        "totalPrice": 847000,
+        "status": 80,
+        "isDelivered": true,
+        "payment": "Account Balance",
+        "isOnline": true,
+        "paymentSerialNum": "14521485581384897",
+        "orderProducts": [
+            {
+                "title": "Áo nỉ mỏng kiểu mới thu 2015, in họa tiết hoa cổ điển, chất liệu vải air cotton phối với vải dệt kim, phong cách Hàn Quốc 1368#",
+                "productNum": null,
+                "productId": 276,
+                "comments": null,
+                "orderItems": [
+                    {
+                        "itemId": 428,
+                        "itemSerialNum": "14521485581437268",
+                        "orderId": 104,
+                        "storeId": 1,
+                        "productId": 276,
+                        "imageUrl": "http://dev.cookabuy.com/group1/M00/00/1C/wKgL6VXde4yANHvzAADj4FI8zwM71.file",
+                        "combinationId": 4194,
+                        "amount": 1,
+                        "price": 121000,
+                        "realPrice": 121000,
+                        "isInStock": true,
+                        "isConfirmed": true,
+                        "status": "normal",
+                        "disputeProgress": 0,
+                        "specificationValues": {
+                            "Màu sắc": "Đỏ",
+                            "size": "Free Size"
+                        },
+                        "title": "Áo nỉ mỏng kiểu mới thu 2015, in họa tiết hoa cổ điển, chất liệu vải air cotton phối với vải dệt kim, phong cách Hàn Quốc 1368#",
+                        "purchasePrice": 28,
+                        "productNum": "1368",
+                        "applyDisputePermit": true
+                    },
+                    {
+                        "itemId": 429,
+                        "itemSerialNum": "14521485581515129",
+                        "orderId": 104,
+                        "storeId": 1,
+                        "productId": 276,
+                        "imageUrl": "http://dev.cookabuy.com/group1/M00/00/1C/wKgL6VXde4yANHvzAADj4FI8zwM71.file",
+                        "combinationId": 4195,
+                        "amount": 6,
+                        "price": 121000,
+                        "realPrice": 726000,
+                        "isInStock": true,
+                        "isConfirmed": true,
+                        "status": "normal",
+                        "disputeProgress": 0,
+                        "specificationValues": {
+                            "Màu sắc": "Đen",
+                            "size": "Free Size"
+                        },
+                        "title": "Áo nỉ mỏng kiểu mới thu 2015, in họa tiết hoa cổ điển, chất liệu vải air cotton phối với vải dệt kim, phong cách Hàn Quốc 1368#",
+                        "purchasePrice": 28,
+                        "productNum": "1368",
+                        "applyDisputePermit": true
+                    }
+                ],
+                "price": 121000,
+                "totalPrice": null,
+                "imageUrl": "http://dev.cookabuy.com/group1/M00/00/1C/wKgL6VXde4yANHvzAADj4FI8zwM71_200x300.file",
+                "isCommented": false
+            }
+        ],
+        "statusName": "tradeSuccess",
+        "createTimeString": "2016/01/07 14:35:58",
+        "priceBefore": 847000,
+        "totalAmount": 7
+}

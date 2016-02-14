@@ -1,0 +1,40 @@
+{
+	"addressList" : [
+	 {	
+	 	"deliveraddrId":122,
+	 	"name":"你猜猜1",
+	 	"country":"",
+	 	"state":"",
+	 	"city":"",
+	 	"region":"",
+	 	"addrDetail": "22星光映景12楼09 - 101",
+	 	"zipcode":"",
+	 	"isDefault": false,
+	 	"phone": "12213445661"
+	 },
+	 {	
+	 	"deliveraddrId":123,
+	 	"name":"你猜猜2",
+	 	"country":"",
+	 	"state":"",
+	 	"city":"",
+	 	"region":"",
+	 	"addrDetail": "22星光映景12楼09 - 101",
+	 	"zipcode":"",
+	 	"isDefault": false,
+	 	"phone": "12213445661"
+	 },
+	 {	
+	 	"deliveraddrId":124,
+	 	"name":"你猜猜3",
+	 	"country":"",
+	 	"state":"",
+	 	"city":"",
+	 	"region":"",
+	 	"addrDetail": "22星光映景12楼09 - 101",
+	 	"zipcode":"",
+	 	"isDefault": true,
+	 	"phone": "12213445661"
+	 }
+	]
+}

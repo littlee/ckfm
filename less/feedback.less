@@ -1,0 +1,86 @@
+@import "public.less";
+.feedback {
+	background-color: #fff;
+	&-tip {
+		padding: 10px 13px;
+		margin-top: 40px;
+		color: #666;
+    	font-size: 15px;
+    	margin-left: -5px;
+    	margin-right: -5px;
+    	&:first-letter {
+			text-transform: uppercase;
+		}
+		&-normal {
+			background-color: #fff3e3;
+		}
+	}	
+	&-form {
+		padding: 15px 10px;
+		&-addon {
+			background-color: #fff;
+			&:first-letter {
+			text-transform: uppercase;
+			}
+		}
+		&-input {
+			border-left: 0;
+		}
+		&-btn {
+			margin-bottom: 90px;
+			margin-top: 30px;
+			&:first-letter {
+				text-transform: uppercase;
+			}
+		}
+		&-textarea {
+			position: relative;
+			&-count {
+				position: absolute;
+				right: 5px;
+				bottom: 0;
+			}
+		}
+		&-danger {
+			&:first-letter {
+				text-transform: uppercase;
+			}
+		}
+	}
+	&-link {
+		border-top: 1px solid #ddd;
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		margin-left: -5px;
+		margin-right: -5px;
+		background-color: #fff;
+		&-item {
+			width: 100%;
+    		display: inline-block;
+    		text-align: center;
+    		vertical-align: middle;
+    		padding: 10px 5px;
+    		color: #666;
+    		font-size: 20px;
+    		&+& {
+    			border-left: 1px solid #ddd;
+    		}
+    		&:first-letter {
+				text-transform: uppercase;
+			}
+			&:link {
+				color: #666;
+				text-decoration: none;
+			}
+			&:visited{
+				color: #666;
+				text-decoration: none;
+			}
+			&:hover {
+				color: #666;
+				text-decoration: none;
+			}
+		}
+	}
+}

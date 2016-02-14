@@ -1,0 +1,93 @@
+@import "public.less";
+
+.coupons-list {
+	margin-top: 40px;
+	&-nav {
+		&-li {
+			display: inline-block;
+			width: 33.3%;
+			text-align: center;
+			background-color: #fff;
+			padding-bottom: 8px;
+			padding-top: 8px;
+			border-bottom: 1px solid #ddd;
+			&-link {
+				color: #666;
+			}
+			&+& {
+				border-left: 1px solid #ddd;
+			}
+			&.active {
+				border-bottom: 3px solid @ck-main;
+				padding-bottom: 6px;
+			}
+		}	
+	}
+
+	&-parent {
+		padding: 20px 5%;
+		&-item {
+			text-align: center;
+			&+& {
+				margin-top: 20px;
+			}
+		}
+	}
+	&-box {
+		border-radius: 10%;
+		width: 87%;
+		display: inline-block;
+		vertical-align: middle;
+		overflow: hidden;
+		background-color: #fff;
+		&-head {
+			background-color: @ck-main;
+			height: 20px;
+			position: relative;
+			&-img {
+				width: 100%;
+				height: 6px;
+				background: url('../images/half_circle.png') repeat-x;
+				position: absolute;
+				bottom: -1px;
+			}
+			&-unable {
+				background-color: #ccc;
+			}
+		}
+		&-body {
+			padding: 0 3%;
+			padding-bottom: 10px;
+			color: #666;
+			&-coupons {
+				width: 40%;
+				text-align: center;
+				display: inline-block;
+				font-weight: 700;
+				&-price {
+					color: @ck-main;
+					font-size: 32px;
+					display: block;
+					font-weight: 500;
+					&-unable {
+						color: #ccc;
+					}
+				}
+			}
+			&-info {
+				width: 60%;
+				display: inline-block;
+				text-align: center;
+				font-weight: 700;
+				&-title {
+					font-size: 14px;
+					display: block;
+					margin-bottom: 10px;
+				}
+				&-time {
+					font-size: 10px;
+				}
+			}
+		}
+	}
+}

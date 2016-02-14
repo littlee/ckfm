@@ -1,0 +1,51 @@
+@import "public.less";
+@facebook: #3A5795;
+@google: #DB4437;
+
+.share-modal {
+	text-align: center;
+
+	&-title {
+		&:first-letter {
+			text-transform: uppercase;
+		}
+
+	}
+
+	&-link {
+		font-size: 32px;
+		display: inline-block;
+
+		&:hover,
+		&:focus,
+		&:active {
+			text-decoration: none;
+		}
+		& + & {
+			margin-left: 10px;
+		}
+	}
+
+	&-facebook {
+		color: @facebook;
+
+		&:hover,
+		&:focus,
+		&:active {
+			color: lighten(@facebook, 10%);
+		}
+
+	}
+
+	&-google {
+		color: @google;
+
+		&:hover,
+		&:focus,
+		&:active {
+			color: lighten(@google, 10%);
+		}
+
+	}
+
+}

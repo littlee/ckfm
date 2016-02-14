@@ -1,0 +1,94 @@
+@import "public.less";
+
+.profile {
+	margin-top: 40px;
+
+	&-avatar {
+		background-color: white;
+		padding: 10px;
+		.clearfix();
+		position: relative;
+		border-bottom: 1px solid #ddd;
+		
+		&-title {
+			display: block;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			margin-top: auto;
+			margin-bottom: auto;
+			height: 14px;
+			left: 20px;
+		}
+
+		&-img {
+			float: right;
+			width: 85px;
+			height: 85px;
+			border: 5px solid rgba(0, 0, 0, 0.3);
+			border-radius: 50%;
+		}
+
+		&-file {
+			display: none;
+		}
+
+	}
+
+	&-link {
+		.clearfix();
+		border-bottom: 1px solid #ddd;
+		background-color: white;
+		position: relative;
+		padding: 10px;
+		display: block;
+		color: #333;
+
+		&-key {
+			display: block;
+			float: left;
+		}
+
+		&-value {
+			display: block;
+			float: right;
+			margin-right: 20px;
+			max-width: 10em;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+
+		&-icon {
+			font-size: 24px;
+			width: 24px;
+			height: 24px;
+			display: block;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			margin-top: auto;
+			margin-bottom: auto;
+			color: #aaa;
+		}
+
+		&-modal {
+			&-btns {
+				text-align: center;
+				margin-top: 10px;
+
+				> button + button {
+					margin-top: 10px;
+				}
+			}
+		}
+
+		&-select {
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			border: none;
+		}
+	}
+
+}

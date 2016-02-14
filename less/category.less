@@ -1,0 +1,105 @@
+@import "public.less";
+
+.category {
+	margin-top: 40px;
+
+	&-x {
+		background-color: white;
+		position: fixed;
+		top: 40px;
+		left: 0;
+		z-index: 99;
+		min-height: 100%;
+		width: 100/3%;
+
+		&-item {
+			text-align: center;
+			display: block;
+			color: @ck-sub;
+			border-right: 1px solid #ddd;
+			border-bottom: 1px solid #ddd;
+			padding-left: 5px;
+
+			&.active {
+				padding-left: 0;
+				border-left: 5px solid @ck-sub;
+				border-right: 1px solid transparent;
+				background-color: #F8FCFF;
+			}
+
+			&:hover,
+			&:focus,
+			&:active {
+				color: @ck-sub;
+				text-decoration: none;
+			}
+		}
+
+		&-icon {
+			display: block;
+			font-size: 48px;
+		}
+
+		&-text {
+			display: block;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+	}
+
+	&-xx {
+
+		&-name {
+			background-color: white;
+			border-left: 1px solid #ddd;
+			border-bottom: 1px solid #ddd;
+			display: block;
+			color: #333;
+			position: relative;
+			padding: 10px;
+
+			&:hover,
+			&:focus,
+			&:active {
+				color: #333;
+			}
+		}
+
+		&-icon {
+			font-size: 18px;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			right: 10px;
+			width: 18px;
+			height: 18px;
+			margin-top: auto;
+			margin-bottom: auto;
+		}
+	}
+
+	&-xxx {
+		.clearfix();
+		&-item {
+			display: block;
+			color: #555;
+			float: left;
+			padding: 5px;
+			width: 50%;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+
+			&:first-letter {
+				text-transform: uppercase;
+			}
+
+			&:hover,
+			&:focus,
+			&:active {
+				color: #555;
+			}
+		}
+	}
+}

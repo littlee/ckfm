@@ -1,0 +1,40 @@
+{
+    "pageNum":1,
+    "hasNextPage":true,
+    "list":[	  
+        {
+            "userName": "c***m",
+            "sellerName": null,
+            "scores": 4,
+            "comments": [
+                {
+                    "commentBy":"buyer",
+                    "comment": "ertyuik",
+                    "createTime": 1449132839000
+                },
+                {
+                    "commentBy":"s",
+                    "comment": "ertyuik",
+                    "createTime": 1449132839000
+                },
+                {
+                    "commentBy":"buyer",
+                    "comment": "ertyuik",
+                    "createTime": 1449132839000
+                }
+            ]            
+        },
+        {
+            "userName": "c***m",
+            "sellerName": null,
+            "scores": 5,
+            "comments": [
+                {
+                    "commentBy":"buyer",
+                    "comment": "ertyuik",
+                    "createTime": 1449132839000
+                }
+            ]            
+        }
+    ]
+}

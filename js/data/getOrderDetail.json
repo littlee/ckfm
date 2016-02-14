@@ -1,0 +1,108 @@
+{
+    "orderListForm": {
+        "orderId": 106,
+        "orderSerialnum": "14521495995008007",
+        "buyerId": 1,
+        "paymentOrderId": 134,
+        "deliveraddrId": 1,
+        "createTime": 1452149601000,
+        "totalPrice": 2155619000.000000,
+        "status": 1,
+        "paymentSerialNum": "14521495994987791",
+        "orderProducts": [
+            {
+                "title": "Áo khoác dày nữ kiểu dài",
+                "productNum": null,
+                "productId": 857,
+                "comments": null,
+                "orderItems": [
+                    {
+                        "itemId": 432,
+                        "itemSerialNum": "14521495995015284",
+                        "orderId": 106,
+                        "storeId": 1,
+                        "productId": 857,
+                        "imageUrl": "http://dev.cookabuy.com/group1/M00/00/1C/wKgL6VXde4yANHvzAADj4FI8zwM71.file",
+                        "combinationId": 50357,
+                        "amount": 9865,
+                        "price": 218000.000000,
+                        "realPrice": 2150570000.000000,
+                        "isInStock": true,
+                        "isConfirmed": false,
+                        "status": "normal",
+                        "disputeProgress": 0,
+                        "specificationValues": {
+                            "size": "Free Size",
+                            "Màu sắc": "Cà phê"
+                        },
+                        "title": "Áo khoác dày nữ kiểu dài",
+                        "purchasePrice": 55.000000,
+                        "productNum": "01#",
+                        "applyDisputePermit": false
+                    }
+                ],
+                "price": 218000.000000,
+                "totalPrice": null,
+                "imageUrl": "http://dev.cookabuy.com/group1/M00/00/1C/wKgL6VXde4yANHvzAADj4FI8zwM71_200x300.file",
+                "isCommented": false
+            },
+            {
+                "title": "Áo len chui đầu nữ form rộng, mẫu mã mới thu 925#",
+                "productNum": null,
+                "productId": 919,
+                "comments": null,
+                "orderItems": [
+                    {
+                        "itemId": 433,
+                        "itemSerialNum": "14521495995102305",
+                        "orderId": 106,
+                        "storeId": 1,
+                        "productId": 919,
+                        "imageUrl": "http://dev.cookabuy.com/group1/M00/00/1C/wKgL6VXde4yANHvzAADj4FI8zwM71.file",
+                        "combinationId": 44259,
+                        "amount": 27,
+                        "price": 187000.000000,
+                        "realPrice": 5049000.000000,
+                        "isInStock": true,
+                        "isConfirmed": false,
+                        "status": "normal",
+                        "disputeProgress": 0,
+                        "specificationValues": {
+                            "size": "Free size",
+                            "Màu sắc": "Đỏ"
+                        },
+                        "title": "Áo len chui đầu nữ form rộng, mẫu mã mới thu 925#",
+                        "purchasePrice": 45.000000,
+                        "productNum": "925",
+                        "applyDisputePermit": false
+                    }
+                ],
+                "price": 187000.000000,
+                "totalPrice": null,
+                "imageUrl": "http://dev.cookabuy.com/group1/M00/00/1C/wKgL6VXde4yANHvzAADj4FI8zwM71_200x300.file",
+                "isCommented": false
+            }
+        ],
+        "statusName": "waitPay",
+        "priceBefore": 2155619000.000000,
+        "totalAmount": 9892
+    },
+    "createTimeString": "2016/01/07 14:53:21",
+    "shippingTimeString": "",
+    "completeTimeString": "",
+    "buyer": "cooka",
+    "deliverAddr": {
+        "deliveraddrId": 1,
+        "userId": 0,
+        "name": "212",
+        "phone": "2121",
+        "country": "越南",
+        "state": "岘港（直辖市）",
+        "city": "岘港（直辖市）",
+        "region": "清溪区",
+        "addrDetail": "21212",
+        "zipcode": "212121",
+        "isDefault": true,
+        "address": null
+    }
+}

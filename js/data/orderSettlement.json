@@ -1,0 +1,192 @@
+{
+"addressList":[
+   {  
+        "deliveraddrId":123,
+        "name":"你猜猜1",
+        "country":"",
+        "state":"",
+        "city":"",
+        "region":"",
+        "addrDetail": "22星光映景12楼09 - 101",
+        "zipcode":"",
+        "isDefault": true,
+        "phone": "12213445661"
+     }
+],
+"orderProcedureForms": [
+    {
+        "storeId": 21,
+        "store": "cooka",
+        "selectProduct": [
+            {
+                "productId": 1,
+                "title": "2015夏季新款连衣裙复古蕾丝 短裙 小礼服",
+                "productImage": "images/1.jpg",
+                "combination": [
+                    {
+                        "combinationId": 212,
+                        "cartItemId":null,
+                        "getamount": 2,
+                        "getcomprice": 1000,
+                        "specificationValue": {
+                           "color": "blue",
+                            "size": "S"
+                        }
+                    },
+                    {
+                        "combinationId": 213,
+                        "cartItemId":null,
+                        "getamount": 2,
+                        "getcomprice": 1000,
+                        "specificationValue": {
+                            "color": "blue",
+                            "size": "S"
+                        }
+                    }
+                ]
+            },
+            {
+                "productId": 2,
+                "title": "2015夏季新款连衣裙复古蕾丝 短裙 小礼服",
+                "productImage": "images/1.jpg",
+                "combination": [
+                    {
+                        "combinationId": 212,
+                        "cartItemId":null,
+                        "getamount": 2,
+                        "getcomprice": 1000,
+                        "specificationValue": {
+                            "color": "blue",
+                            "size": "S"
+                        }
+                    },
+                    {
+                        "combinationId": 213,
+                        "cartItemId":null,
+                        "getamount": 2,
+                        "getcomprice": 1000,
+                        "specificationValue": {
+                            "color": "blue",
+                            "size": "S"
+                        }
+                    }
+                ]
+            },
+            {
+                "productId": 3,
+                "title": "2015夏季新款连衣裙复古蕾丝 短裙 小礼服",
+                "productImage": "images/1.jpg",
+                "combination": [
+                    {
+                        "combinationId": 212,
+                        "cartItemId":null,
+                        "getamount": 2,
+                        "getcomprice": 1000,
+                        "specificationValue": {
+                            "color": "blue",
+                            "size": "S"
+                        }
+                    },
+                    {
+                        "combinationId": 213,
+                        "cartItemId":null,
+                        "getamount": 2,
+                        "getcomprice": 1000,
+                        "specificationValue": {
+                           "color": "blue",
+                            "size": "S"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "storeId": 21,
+        "store": "cooka",
+        "selectProduct": [
+            {
+                "productId": 11,
+                "title": "2015夏季新款连衣裙复古蕾丝 短裙 小礼服",
+                "productImage": "images/1.jpg",
+                "combination": [
+                    {
+                        "combinationId": 212,
+                        "cartItemId":null,
+                        "getamount": 2,
+                        "getcomprice": 1000,
+                        "specificationValue": {
+                           "color": "blue",
+                            "size": "S"
+                        }
+                    },
+                    {
+                        "combinationId": 213,
+                        "cartItemId":null,
+                        "getamount": 2,
+                        "getcomprice": 1000,
+                        "specificationValue": {
+                           "color": "blue",
+                            "size": "S"
+                        }
+                    }
+                ]
+            },
+            {
+                "productId": 12,
+                "title": "2015夏季新款连衣裙复古蕾丝 短裙 小礼服",
+                "productImage": "images/1.jpg",
+                "combination": [
+                    {
+                        "combinationId": 212,
+                        "cartItemId":null,
+                        "getamount": 2,
+                        "getcomprice": 1000,
+                        "specificationValue": {
+                            "color": "blue",
+                            "size": "S"
+                        }
+                    },
+                    {
+                        "combinationId": 213,
+                        "cartItemId":null,
+                        "getamount": 2,
+                        "getcomprice": 1000,
+                        "specificationValue": {
+                           "color": "blue",
+                            "size": "S"
+                        }
+                    }
+                ]
+            },
+            {
+                "productId": 13,
+                "title": "2015夏季新款连衣裙复古蕾丝 短裙 小礼服",
+                "productImage": "images/1.jpg",
+                "combination": [
+                    {
+                        "combinationId": 212,
+                        "cartItemId":null,
+                        "getamount": 2,
+                        "getcomprice": 1000,
+                        "specificationValue": {
+                          "color": "blue",
+                            "size": "S"
+                        }
+                    },
+                    {
+                        "combinationId": 213,
+                        "cartItemId":null,
+                        "getamount": 2,
+                        "getcomprice": 1000,
+                        "specificationValue": {
+                           "color": "blue",
+                            "size": "S"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]	
+}

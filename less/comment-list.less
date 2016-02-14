@@ -1,0 +1,49 @@
+@import "public.less";
+
+.comment-list {
+	margin-top: 40px;
+
+	&-product {
+		background-color: white;
+		margin-bottom: 10px;
+		padding: 5px;
+
+		&-inner {			
+			.clearfix();
+			border-bottom: 1px solid #ddd;
+		}
+
+		&-thumb {
+			float: left;
+			width: 20%;
+
+			> img {
+				max-width: 100%;
+			}
+		}
+
+		&-info {
+			float: left;
+			width: 80%;
+			padding: 10px;
+		}
+
+		&-score {
+			margin-top: 5px;
+		}
+	}
+
+	&-item {
+		padding: 5px;
+		border-bottom: 1px solid #eee;
+	}
+
+	&-time {
+		font-size: 12px;
+	}
+
+	&-btn {
+		text-align: right;
+		padding: 5px;
+	}
+}

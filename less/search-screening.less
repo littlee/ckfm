@@ -1,0 +1,101 @@
+@import "public.less";
+
+.search-screening {
+	&-module {
+		.clearfix();
+		background: #fff;
+	}
+	&-icon {
+		font-size: 32px;
+		display: block;
+		margin-top: 4px;
+		text-align: center;
+	}
+
+	&-btn {
+		box-shadow: 1px 0 0 0 #999;
+		&-text {
+			display: block;
+			text-align: center;
+			padding-top: 4px;
+			margin-bottom: 4px;
+		}
+	}
+
+	&-result-text,
+	&-condition-text {
+		padding-left: 8px;
+		.one-line();
+		.selected-condition-label {
+			padding-right: 6px;
+			color: @ck-strong;
+		}
+	}
+
+	&-amount {
+		color: @ck-strong;
+	}
+
+	&-item {
+		&:last-child {
+			margin-bottom: 20px;
+		}
+		&-title {
+			background: @ck-sub;
+			color: #fff;
+			margin: 0;
+			padding: 12.5px;
+			position: relative;
+			.letter-upper();
+			.hide {
+				display: none;
+			}
+			.glyphicon {
+				position: absolute;
+				padding: 4px;
+				right: 12px;
+				top: 9px;
+			}
+		}
+		&-content {
+			padding: 12px 0;
+			margin: 0 4px;
+			.clearfix();
+		}
+		&-label {
+			display: block;
+			float: left;
+			color: @ck-sub;
+			text-decoration: none;
+			padding: 4px 12px;
+			margin-right: 12px;
+			margin-top: 3px;
+			margin-bottom: 3px;
+			border: 1px solid @ck-sub;
+			&.active {
+				background: @ck-main;
+				color: #fff;
+				text-decoration: none;
+				border: 1px solid @ck-main;
+			}
+		}
+	}
+	&-clear-condition {
+		background: #fff;
+		color: @ck-main;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	&-clear-btn {
+		padding: 8px 12px;
+		border: 1px solid @ck-main;
+		border-radius: 4px;
+		text-decoration: none;
+		&:visited,
+		&:hover,
+		&:active {
+			text-decoration: none;
+			color: @ck-main;
+		}
+	}
+}

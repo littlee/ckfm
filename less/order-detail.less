@@ -1,0 +1,169 @@
+@import "public.less";
+
+.order-detail {
+	margin-top: 40px;
+
+	&-status {
+		background-image: url(../images/order_detail_bg.jpg);
+		background-color: #647a93;
+		background-size: auto 100%;
+		background-position: center right;
+		background-repeat: no-repeat;
+		position: relative;
+		padding: 20px;
+		.clearfix();
+
+		&-bubble {
+			background-color: white;
+			float: left;
+			display: block;
+			padding: 10px;
+			border-radius: 10px;
+			min-width: 80%;
+			position: relative;
+
+			&:after {
+				content: "";
+				display: block;
+				position: absolute;
+				border-style: solid;
+				border-width: 10px;
+				border-top-color: transparent;
+				border-right-color: transparent;
+				border-bottom-color: transparent;
+				border-left-color: white;
+				width: 0;
+				height: 0;
+				top: 0;
+				bottom: 0;
+				right: -20px;
+				margin-top: auto;
+				margin-bottom: auto;
+			}
+		}
+	}
+
+	&-guide {
+		padding: 10px;
+	}
+
+	&-address {
+		padding: 10px;
+		background-color: white;
+		border-bottom: 1px solid #ddd;
+		margin-bottom: 10px;
+
+		> dl {
+			margin: 0;
+		}
+	}
+
+	&-num {
+		padding: 10px;
+		background-color: white;
+		border-top: 1px solid #ddd;
+		border-bottom: 1px solid #ddd;
+	}
+
+	&-info {
+		background-color: white;
+		.clearfix();
+	}
+
+	&-thumb {
+		display: block;
+		float: left;
+		width: 20%;
+
+		> img {
+			max-width: 100%;
+		}
+	}
+
+	&-title {
+		display: block;
+		float: left;
+		width: 80%;
+		padding: 10px;
+	}
+
+	&-spec {
+		background-color: white;
+		margin: 0;
+	}
+
+	&-total {
+		padding: 10px;
+		background-color: white;
+		border-bottom: 1px solid #ddd;
+		
+		> dl {
+			margin: 0;
+		}
+
+		&-hl {
+			color: @ck-strong;
+		}
+	}
+
+	&-service {
+		text-align: center;
+		padding: 5px;
+		background-color: white;
+		border-bottom: 1px solid #ddd;
+		margin-bottom: 10px;
+
+		> .btn + .btn {
+			margin-left: 5px;
+		}
+	}
+
+	&-time {
+		padding: 5px;
+		background-color: white;
+		margin-bottom: 30px;
+
+		&-heading {
+			border-bottom: 1px solid #ddd;
+			padding: 5px;
+		}
+
+		&-body {
+			padding: 5px;
+		}
+	}
+
+	&-btns {
+		text-align: right;
+		padding: 5px 10px;
+		background-color: white;
+		border-top: 1px solid #ddd;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+
+		> .btn + .btn {
+			margin-left: 5px;
+		}
+	}
+
+	&-comment-btn {
+		text-align: right;
+		padding: 5px 10px;
+		background-color: white;
+		border-bottom: 1px solid #ddd;
+	}
+
+	&-disputing {
+		text-align: center;
+
+		> a {		
+			color: darken(@ck-strong, 10%);
+		}
+	}
+
+	.table > tbody > tr > td.order-detail-disputing {
+		padding: 3px;
+	}
+}

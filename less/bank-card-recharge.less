@@ -1,0 +1,56 @@
+@import "public.less";
+@success-color: #8cc63f;
+.bank-card-recharge {
+  &-module {
+    margin-top: 40px;
+  }
+  &-amount {
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 17px 0 0;
+    font-weight: bold;
+    .num-text {
+      color: @ck-strong;
+    }
+  }
+  &-result {
+    &-logo {
+      padding: 12px 0;
+      letter-spacing: 1px;
+      text-align: center;
+      .failure-icon,
+      .success-icon {
+        color: @success-color;
+        font-size: 30px;
+        font-weight: bold;
+      }
+      .failure-icon {
+        color: @ck-strong;
+      }
+      .failure-text,
+      .success-text {
+        color: @success-color;
+        font-size: 14px;
+        position: relative;
+        top: -6px;
+        left: 6px;
+      }
+      .failure-text {
+        color: @ck-strong;
+      }
+    }
+    .amount-text,
+    .failure-reason {
+      text-align: center;
+      strong {
+        color: @ck-strong;
+      }
+    }
+    .back-to-home {
+      width: 80%;
+      letter-spacing: 4px;
+      display: block;
+      margin: 20px auto 0;
+    }
+  }
+}

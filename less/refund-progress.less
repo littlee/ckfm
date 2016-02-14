@@ -1,0 +1,93 @@
+@import "public.less";
+
+.refund-progress{
+	margin-top: 40px;
+	padding-top: 10px;
+	background-color: #fff;
+	padding-bottom: 30px;
+	&-main{
+		margin-top: 30px;
+		margin-bottom: 20px;
+		text-align: center;
+		[class*="icon-"]{
+			font-size: 42px;
+			color: @ck-main;
+		}
+		h2{
+			font-size: 14px;
+			color: @ck-main;
+		}
+		&-p{
+			padding-left:20px;
+			padding-right:20px;
+			margin-top: 20px;
+		}
+		&-dl{
+			margin-bottom: 5px;
+			dt{
+				width: 40%;
+				vertical-align: top;
+				display: inline-block;
+				font-weight: normal;
+				text-align: right;				
+			}
+			dd{
+				width: 50%;
+				display: inline-block;
+				text-align: left;
+			}
+		}
+	}
+
+	&-link{
+		color:#000;
+		display: block;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	&-btn{
+		text-align: center;
+		margin-top: 5px;
+		.btn {
+			margin-left: 5px;
+		}
+	}
+
+	&-store{
+		&-icon{			
+			width: 15px;
+			height: 25px;
+			background-color: @ck-sub-light;
+			margin-right: 10px;
+		}
+		&-head{
+			border-top: solid 1px #ddd;
+			border-bottom: solid 1px #ddd;
+			padding-top: 5px;
+			padding-bottom: 5px;
+		}
+		&-item{
+			h3{
+				color: @ck-sub-light;
+				font-size: 14px;
+				margin-top: 5px;
+				margin-bottom: 5px;
+			}
+			&-p{
+				border-bottom: solid 1px #ddd;
+				padding-bottom: 5px;				
+			}
+		}
+	}
+
+	&-modal{
+		&-title{
+			font-size: 14px;
+		}
+		&-btn{
+			margin-top: 15px;
+			margin-right: 10px;
+		}
+	}
+}

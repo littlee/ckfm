@@ -1,0 +1,82 @@
+@import "public.less";
+.order-coupons {
+	margin-top: 49px;
+	&-list {
+		padding: 20px 5%;
+		&-item {
+			&-radio {
+				width: 13%;
+				display: inline-block;
+			}
+			&+& {
+				margin-top: 20px;
+			}
+		}
+	}
+	&-box {
+		border-radius: 10%;
+		width: 87%;
+		display: inline-block;
+		vertical-align: middle;
+		overflow: hidden;
+		background-color: #fff;
+		&-head {
+			background-color: @ck-main;
+			height: 20px;
+			position: relative;
+			&-img {
+				width: 100%;
+				height: 6px;
+				background: url('../images/half_circle.png') repeat-x;
+				position: absolute;
+				bottom: -1px;
+			}
+			&-unable {
+				background-color: #ccc;
+			}
+		}
+		&-body {
+			padding: 0 3%;
+			padding-bottom: 10px;
+			color: #666;
+			&-coupons {
+				width: 40%;
+				text-align: center;
+				display: inline-block;
+				font-weight: 700;
+				&-price {
+					color: @ck-main;
+					font-size: 32px;
+					display: block;
+					font-weight: 500;
+					&-unable {
+						color: #ccc;
+					}
+				}
+			}
+			&-info {
+				width: 60%;
+				display: inline-block;
+				text-align: center;
+				font-weight: 700;
+				&-title {
+					font-size: 14px;
+					display: block;
+					margin-bottom: 10px;
+				}
+				&-time {
+					font-size: 10px;
+				}
+			}
+		}
+	}
+	&-form {
+		&-btn {
+			position: fixed;
+			bottom: 0;
+			width: 100%;
+			padding: 10px;
+			background-color: #fff;
+		}
+	}
+}

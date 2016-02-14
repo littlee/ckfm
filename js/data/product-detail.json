@@ -1,0 +1,50 @@
+{
+	"carousel": [
+        "images/home/carousel1.jpg",
+        "images/1.jpg",
+        "images/home/carousel3.jpg",
+        "images/home/carousel4.jpg",
+        "images/home/carousel5.jpg"
+    ],
+    "tit":"巴比伦公主 1234夏天比伦公主 1234夏天比伦公主 1234夏天",
+    "storeId": 8,
+    "itemId": 816,
+    "productId": 14,
+    "collected":true,
+    "star":4,
+    "comment":124,
+    "combinationString":["color","size"],
+    "combination":[
+        {
+            "name":"red",
+            "image":null,
+            "child":[
+                {
+                    "combinationId":1112,
+                    "name":"L"
+                },
+                {
+                    "combinationId":1111,
+                    "name":"M"
+                }
+            ]
+        },
+        {
+            "name":"blue",
+            "image":"images/home/carousel3.jpg",
+            "child":[
+                {
+                    "combinationId":1113,
+                    "name":"L"
+                },
+                {
+                    "combinationId":1114,
+                    "name":"M"
+                }
+            ]
+        }
+    ],
+    "price": [9,5,2],
+    "range":[1,4,7],
+    "active": true
+}

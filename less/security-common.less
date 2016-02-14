@@ -1,0 +1,124 @@
+@import "public.less";
+.security-common {
+	margin-top: 40px;
+	&-ol {
+		padding: 30px 11% 50px 14%;
+		&-li {
+			width: 43%;
+			position: relative;
+			&-line {
+				height: 2px;
+				background-color: #999;
+				margin-left: 22px;
+			}
+			&-step {
+				position: absolute;
+				left: -4px;
+				color: #fff;
+				width: 30px;
+				height: 30px;
+				border-radius: 50%;
+				background-color: #5e81a7;
+				text-align: center;
+				padding-top: 6px;
+			    font-size: 20px;
+			    line-height: 20px;
+			    top: -14px;
+			}
+			&-text {
+				position: absolute;
+				top: 22px;
+				width: 100%;
+	    		left: -4px;
+	    		color: #5e81a7;
+	    		font-weight: 700;
+			}
+			&:last-child {
+				width: 30px;
+			}
+			&.active ~ & {
+				.security-common-ol-li-step { 
+					background-color: #999;
+				}
+				.security-common-ol-li-text {
+					color: #999;
+				} 
+			}
+		}
+	}
+	&-form {
+		&-success {
+			font-size: 16px;
+			text-align: left;
+		}
+		&-group {
+			text-align: right;
+    		font-size: 26px;
+    		color: @ck-main;
+    		padding-right: 8%;
+		    border-bottom: 1px solid #999;
+		    padding-left: 3%;
+		    padding-top: 7px;
+		    margin-bottom: 0;
+		    padding-bottom: 5px;
+		    background-color: #fff;
+    		&-input {
+    			border: 0;
+    			border-bottom: 1px solid #999;
+    			box-shadow:none;
+    		}
+    		&-label {
+    			padding-top: 3px;
+    			&-select {
+    				font-size: 14px;
+    				font-weight: 500;
+    				width: 33%;
+    				float: left;
+    				&-s {
+    					padding: 6px 0;
+    					margin-top: -3px;
+    					border-color: #999;
+    					color:#999
+    				}
+    			}
+    		}
+    		&-btn {
+    			padding-left: 4%;
+    			padding-right: 4%;
+    			margin-top: 50px;
+    			margin-bottom: 50px;
+    			&-submit {
+    				width: 100%;
+    				vertical-align: top;
+    			}
+    		}
+    		&-text {
+    			text-align: center;
+    			font-size: 16px;
+    			color: #666;
+    			padding-bottom: 10px;
+    			padding-top: 10px;
+    		}
+		}
+		&-alert {
+			margin: 12px 4% 60px 4%;
+		}
+	}
+	&-security {
+		background-color: #fff;
+		&-table {
+			thead tr th,tbody tr td {
+				text-align: center;
+			}
+		}
+	}
+	&-success {
+		color: #8cc63f;
+		font-size: 20px;
+		text-align: center;
+		margin-top: 30px;
+		&-icon {
+			font-size: 65px;
+		}
+	}
+}

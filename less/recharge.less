@@ -1,0 +1,97 @@
+@import "public.less";
+.recharge {
+  &-module {
+    .clearfix();
+    margin-top: 40px;
+    margin-bottom: 50px;
+    .control-label {
+      padding-top: 7px;
+    }
+    .btn {
+      padding: 10px 12px;
+    }
+    .amount-input-form {
+      .form-group {
+        background: #fff;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border: 1px solid #ccc;
+      }
+      .form-group:last-child {
+        padding-top: 0;
+        padding-bottom: 0;
+        border: 0;
+        background: transparent;
+        margin-top: 80px;
+        .btn {
+          letter-spacing: 10px;
+        }
+      }
+      .f-recharge-amount-label,
+      .f-payment-option-label {
+        text-align: right;
+        letter-spacing: 1px;
+      }
+      .form-control {
+        border: 0;
+        box-shadow: none;
+        &.text {
+          line-height: 22px;
+        }
+      }
+      .f-recharge-amount-input {
+        display: block;
+        float: left;
+        padding-left: 10px;
+        width: 100%;
+      }
+      .forward-icon {
+        position: relative;
+        span {
+          position: absolute;
+          top: 10px;
+          left: 0;
+        }
+      }
+    }
+  }
+  &-form {
+    &-current-balance {
+      text-align: center;
+      letter-spacing: 1px;
+      padding: 17px 0;
+      font-weight: bold;
+      .num-text {
+        color: @ck-strong;
+      }
+    }
+  }
+  &-way {
+    &-selection {
+      position: relative;
+      .close-modal-button {
+        position: absolute;
+        right: 0;
+        top: -15px;
+        background: @ck-main;
+        color: #fff;
+        font-weight: bold;
+        padding: 5px;
+        border: 1px solid @ck-main;
+        border-radius: 12px;
+      }
+    }
+    &-items {
+      .tips {
+        margin-top: 15px;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+        text-align: center;
+      }
+    }
+    &-item {
+      width: 80%;
+      margin-bottom: 10px;
+    }
+  }
+}

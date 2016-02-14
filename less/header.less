@@ -1,0 +1,70 @@
+@import "public.less";
+
+.header-btn() {
+	position: absolute;
+	top: 0;
+	font-size: 24px;
+	display: block;
+	width: 40px;
+	height: 40px;
+
+	[class^="icon-"],
+	[class*=" icon-"] {
+		.abs-center(24px, 24px);
+	}
+
+}
+
+.header {
+
+	a {
+		&:hover,
+		&:focus,
+		&:active {
+			text-decoration: none;
+		}
+	}
+
+	.clearfix();
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	z-index: 999;
+	border-bottom: 1px solid @ck-sub;
+	text-align: center;
+
+	&-back {
+		.header-btn();
+		color: #999;
+		left: 0;
+		border-right: 1px solid #999;
+	}
+
+	&-title {
+		margin: 0;
+		padding-top: 12px;
+		color: @ck-sub;
+		padding-left: 40px;
+		padding-right: 80px;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		text-transform: capitalize;
+	}
+
+	&-search {
+		.header-btn();
+		color: @ck-sub;
+		right: 40px;
+		border-left: 1px solid #999;
+
+		&.active {
+			background-color: @ck-sub;
+			color: #fff;
+		}
+
+	}
+}
